@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chain": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chain"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chain"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chain"
+  },
+  "sends_telemetry_event": true
+}

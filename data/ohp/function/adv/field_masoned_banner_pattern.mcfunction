@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'field_masoned_banner_pattern', 'item': 'minecraft:field_masoned_banner_pattern'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sea_pickle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sea_pickle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sea_pickle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sea_pickle"
+  },
+  "sends_telemetry_event": true
+}

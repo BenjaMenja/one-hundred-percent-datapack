@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.purple_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.purple_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/purple_carpet"
+  },
+  "sends_telemetry_event": true
+}

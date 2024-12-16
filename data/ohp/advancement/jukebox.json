@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jukebox": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jukebox"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jukebox"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jukebox"
+  },
+  "sends_telemetry_event": true
+}

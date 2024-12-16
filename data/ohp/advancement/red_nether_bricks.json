@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_nether_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_nether_bricks"
+  },
+  "sends_telemetry_event": true
+}

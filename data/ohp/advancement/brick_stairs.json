@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brick_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brick_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brick_stairs"
+  },
+  "sends_telemetry_event": true
+}

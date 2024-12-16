@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.melon_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:melon_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.melon_slice"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/melon_slice"
+  },
+  "sends_telemetry_event": true
+}

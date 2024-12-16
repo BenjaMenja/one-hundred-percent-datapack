@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_pickaxe"
+  },
+  "sends_telemetry_event": true
+}

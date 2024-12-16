@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_stairs"
+  },
+  "sends_telemetry_event": true
+}

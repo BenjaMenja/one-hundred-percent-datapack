@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'armor_stand', 'item': 'minecraft:armor_stand'}

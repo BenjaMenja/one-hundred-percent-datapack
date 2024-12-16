@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.waxed_cut_copper_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_cut_copper_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.waxed_cut_copper_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/waxed_cut_copper_stairs"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.furnace"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/furnace"
+  },
+  "sends_telemetry_event": true
+}

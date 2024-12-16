@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'birch_log', 'item': 'minecraft:birch_log'}

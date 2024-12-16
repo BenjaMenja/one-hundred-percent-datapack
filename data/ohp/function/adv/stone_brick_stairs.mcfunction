@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'stone_brick_stairs', 'item': 'minecraft:stone_brick_stairs'}

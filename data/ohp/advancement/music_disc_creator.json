@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_creator"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_creator"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wild_armor_trim_smithing_template', 'item': 'minecraft:wild_armor_trim_smithing_template'}

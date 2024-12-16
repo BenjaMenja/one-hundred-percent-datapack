@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_copper_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_copper_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_copper_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_copper_ore"
+  },
+  "sends_telemetry_event": true
+}

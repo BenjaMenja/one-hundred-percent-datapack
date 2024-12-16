@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_birch_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_birch_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_birch_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_birch_wood"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_log"
+  },
+  "sends_telemetry_event": true
+}

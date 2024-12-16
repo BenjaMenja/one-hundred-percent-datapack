@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chainmail_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chainmail_chestplate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chainmail_chestplate"
+  },
+  "sends_telemetry_event": true
+}

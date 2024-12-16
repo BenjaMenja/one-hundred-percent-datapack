@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diorite_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diorite_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diorite_slab"
+  },
+  "sends_telemetry_event": true
+}

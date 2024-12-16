@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_wood"
+  },
+  "sends_telemetry_event": true
+}

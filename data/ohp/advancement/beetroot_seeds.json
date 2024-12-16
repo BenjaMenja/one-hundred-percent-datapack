@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.beetroot_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.beetroot_seeds"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/beetroot_seeds"
+  },
+  "sends_telemetry_event": true
+}

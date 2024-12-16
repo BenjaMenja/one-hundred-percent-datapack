@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dead_fire_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dead_fire_coral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dead_fire_coral"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dead_fire_coral"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.waxed_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.waxed_copper_grate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/waxed_copper_grate"
+  },
+  "sends_telemetry_event": true
+}

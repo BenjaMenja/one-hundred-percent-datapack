@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lodestone', 'item': 'minecraft:lodestone'}

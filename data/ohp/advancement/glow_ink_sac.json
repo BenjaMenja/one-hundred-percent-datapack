@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.glow_ink_sac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_ink_sac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.glow_ink_sac"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/glow_ink_sac"
+  },
+  "sends_telemetry_event": true
+}

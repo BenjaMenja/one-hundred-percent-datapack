@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'fishing_rod', 'item': 'minecraft:fishing_rod'}

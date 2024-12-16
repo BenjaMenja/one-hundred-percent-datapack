@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pitcher_pod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pitcher_pod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pitcher_pod"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pitcher_pod"
+  },
+  "sends_telemetry_event": true
+}

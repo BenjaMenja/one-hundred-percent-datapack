@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'suspicious_sand', 'item': 'minecraft:suspicious_sand'}

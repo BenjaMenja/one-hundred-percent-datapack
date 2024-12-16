@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.turtle_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.turtle_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/turtle_helmet"
+  },
+  "sends_telemetry_event": true
+}

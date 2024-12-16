@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_chest_raft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_chest_raft"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_chest_raft"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_chest_raft"
+  },
+  "sends_telemetry_event": true
+}

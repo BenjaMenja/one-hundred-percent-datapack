@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.disc_fragment_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:disc_fragment_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.disc_fragment_5"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/disc_fragment_5"
+  },
+  "sends_telemetry_event": true
+}

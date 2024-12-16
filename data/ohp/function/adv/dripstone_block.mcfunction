@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dripstone_block', 'item': 'minecraft:dripstone_block'}

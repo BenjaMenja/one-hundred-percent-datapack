@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.enchanting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.enchanting_table"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/enchanting_table"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_blue_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_blue_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_blue_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_blue_banner"
+  },
+  "sends_telemetry_event": true
+}

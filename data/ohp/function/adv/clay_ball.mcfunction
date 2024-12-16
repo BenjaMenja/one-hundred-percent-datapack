@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'clay_ball', 'item': 'minecraft:clay_ball'}

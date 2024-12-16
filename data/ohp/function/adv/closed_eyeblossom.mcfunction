@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'closed_eyeblossom', 'item': 'minecraft:closed_eyeblossom'}

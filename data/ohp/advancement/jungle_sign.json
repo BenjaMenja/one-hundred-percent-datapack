@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_sign"
+  },
+  "sends_telemetry_event": true
+}

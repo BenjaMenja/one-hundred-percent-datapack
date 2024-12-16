@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spruce_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spruce_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spruce_door"
+  },
+  "sends_telemetry_event": true
+}

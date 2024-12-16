@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'filled_map', 'item': 'minecraft:filled_map'}

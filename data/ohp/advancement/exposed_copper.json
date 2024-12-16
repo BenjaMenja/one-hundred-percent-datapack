@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.exposed_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.exposed_copper"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/exposed_copper"
+  },
+  "sends_telemetry_event": true
+}

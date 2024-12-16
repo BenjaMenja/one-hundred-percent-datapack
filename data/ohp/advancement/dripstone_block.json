@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dripstone_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dripstone_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dripstone_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dripstone_block"
+  },
+  "sends_telemetry_event": true
+}

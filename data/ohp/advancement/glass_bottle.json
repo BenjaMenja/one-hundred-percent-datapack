@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.glass_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.glass_bottle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/glass_bottle"
+  },
+  "sends_telemetry_event": true
+}

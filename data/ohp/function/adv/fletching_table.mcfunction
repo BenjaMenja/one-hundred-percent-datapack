@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'fletching_table', 'item': 'minecraft:fletching_table'}

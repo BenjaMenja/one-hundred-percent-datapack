@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.gold_nugget"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/gold_nugget"
+  },
+  "sends_telemetry_event": true
+}

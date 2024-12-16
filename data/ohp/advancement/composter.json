@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.composter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:composter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.composter"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/composter"
+  },
+  "sends_telemetry_event": true
+}

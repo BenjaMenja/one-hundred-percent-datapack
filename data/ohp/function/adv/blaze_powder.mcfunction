@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'blaze_powder', 'item': 'minecraft:blaze_powder'}

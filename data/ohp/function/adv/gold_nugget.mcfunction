@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'gold_nugget', 'item': 'minecraft:gold_nugget'}

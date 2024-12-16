@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.furnace_minecart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace_minecart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.furnace_minecart"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/furnace_minecart"
+  },
+  "sends_telemetry_event": true
+}

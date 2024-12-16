@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_porkchop"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_porkchop"
+  },
+  "sends_telemetry_event": true
+}

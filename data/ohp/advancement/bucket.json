@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bucket"
+  },
+  "sends_telemetry_event": true
+}

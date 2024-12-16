@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_planks"
+  },
+  "sends_telemetry_event": true
+}

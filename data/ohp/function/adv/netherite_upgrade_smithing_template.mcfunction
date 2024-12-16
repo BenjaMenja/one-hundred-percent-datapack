@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_upgrade_smithing_template', 'item': 'minecraft:netherite_upgrade_smithing_template'}

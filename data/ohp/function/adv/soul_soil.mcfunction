@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'soul_soil', 'item': 'minecraft:soul_soil'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diamond_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diamond_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diamond_boots"
+  },
+  "sends_telemetry_event": true
+}

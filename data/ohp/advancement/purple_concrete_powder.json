@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.purple_concrete_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_concrete_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.purple_concrete_powder"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/purple_concrete_powder"
+  },
+  "sends_telemetry_event": true
+}

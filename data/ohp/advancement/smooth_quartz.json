@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.smooth_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.smooth_quartz"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/smooth_quartz"
+  },
+  "sends_telemetry_event": true
+}

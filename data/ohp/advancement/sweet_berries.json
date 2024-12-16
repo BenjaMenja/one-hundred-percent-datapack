@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sweet_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sweet_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sweet_berries"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sweet_berries"
+  },
+  "sends_telemetry_event": true
+}

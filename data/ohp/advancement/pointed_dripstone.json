@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pointed_dripstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pointed_dripstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pointed_dripstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pointed_dripstone"
+  },
+  "sends_telemetry_event": true
+}

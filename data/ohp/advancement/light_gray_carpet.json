@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_gray_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_gray_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_gray_carpet"
+  },
+  "sends_telemetry_event": true
+}

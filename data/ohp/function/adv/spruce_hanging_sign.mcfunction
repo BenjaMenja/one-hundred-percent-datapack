@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'spruce_hanging_sign', 'item': 'minecraft:spruce_hanging_sign'}

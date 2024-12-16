@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'glow_berries', 'item': 'minecraft:glow_berries'}

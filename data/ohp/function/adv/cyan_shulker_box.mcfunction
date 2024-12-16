@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cyan_shulker_box', 'item': 'minecraft:cyan_shulker_box'}

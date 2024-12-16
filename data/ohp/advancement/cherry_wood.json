@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_wood"
+  },
+  "sends_telemetry_event": true
+}

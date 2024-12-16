@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diamond_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diamond_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diamond_helmet"
+  },
+  "sends_telemetry_event": true
+}

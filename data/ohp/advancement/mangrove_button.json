@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mangrove_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mangrove_button"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mangrove_button"
+  },
+  "sends_telemetry_event": true
+}

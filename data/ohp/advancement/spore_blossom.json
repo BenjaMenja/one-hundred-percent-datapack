@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spore_blossom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spore_blossom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spore_blossom"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spore_blossom"
+  },
+  "sends_telemetry_event": true
+}

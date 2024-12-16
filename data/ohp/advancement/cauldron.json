@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cauldron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cauldron"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cauldron"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cauldron"
+  },
+  "sends_telemetry_event": true
+}

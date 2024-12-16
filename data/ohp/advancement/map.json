@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.map": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:map"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.map"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/map"
+  },
+  "sends_telemetry_event": true
+}

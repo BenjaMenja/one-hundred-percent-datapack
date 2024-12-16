@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sponge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sponge"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sponge"
+  },
+  "sends_telemetry_event": true
+}

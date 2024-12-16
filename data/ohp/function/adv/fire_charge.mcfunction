@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'fire_charge', 'item': 'minecraft:fire_charge'}

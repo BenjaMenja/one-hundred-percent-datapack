@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.heart_of_the_sea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heart_of_the_sea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.heart_of_the_sea"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/heart_of_the_sea"
+  },
+  "sends_telemetry_event": true
+}

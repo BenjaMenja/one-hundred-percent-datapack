@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.leather_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.leather_leggings"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/leather_leggings"
+  },
+  "sends_telemetry_event": true
+}

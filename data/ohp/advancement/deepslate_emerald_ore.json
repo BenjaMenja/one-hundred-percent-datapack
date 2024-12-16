@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_emerald_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_emerald_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_emerald_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_emerald_ore"
+  },
+  "sends_telemetry_event": true
+}

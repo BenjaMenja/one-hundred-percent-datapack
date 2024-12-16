@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wooden_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wooden_axe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wooden_axe"
+  },
+  "sends_telemetry_event": true
+}

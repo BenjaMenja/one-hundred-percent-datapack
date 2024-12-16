@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.daylight_detector": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:daylight_detector"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.daylight_detector"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/daylight_detector"
+  },
+  "sends_telemetry_event": true
+}

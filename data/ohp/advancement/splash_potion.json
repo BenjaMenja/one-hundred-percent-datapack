@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.splash_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:splash_potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.splash_potion"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/splash_potion"
+  },
+  "sends_telemetry_event": true
+}

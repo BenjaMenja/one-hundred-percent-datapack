@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cobblestone_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cobblestone_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cobblestone_wall"
+  },
+  "sends_telemetry_event": true
+}

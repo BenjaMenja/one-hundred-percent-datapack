@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'damaged_anvil', 'item': 'minecraft:damaged_anvil'}

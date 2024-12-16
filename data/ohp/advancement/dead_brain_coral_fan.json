@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dead_brain_coral_fan": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dead_brain_coral_fan"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dead_brain_coral_fan"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dead_brain_coral_fan"
+  },
+  "sends_telemetry_event": true
+}

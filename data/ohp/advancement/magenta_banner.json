@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.magenta_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.magenta_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/magenta_banner"
+  },
+  "sends_telemetry_event": true
+}

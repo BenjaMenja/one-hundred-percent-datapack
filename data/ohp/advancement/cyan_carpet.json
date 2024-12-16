@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_carpet"
+  },
+  "sends_telemetry_event": true
+}

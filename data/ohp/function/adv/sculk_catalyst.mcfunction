@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'sculk_catalyst', 'item': 'minecraft:sculk_catalyst'}

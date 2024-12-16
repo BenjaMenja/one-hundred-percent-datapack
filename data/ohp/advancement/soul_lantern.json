@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.soul_lantern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_lantern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.soul_lantern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/soul_lantern"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.detector_rail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:detector_rail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.detector_rail"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/detector_rail"
+  },
+  "sends_telemetry_event": true
+}

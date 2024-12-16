@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mushroom_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mushroom_stem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mushroom_stem"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mushroom_stem"
+  },
+  "sends_telemetry_event": true
+}

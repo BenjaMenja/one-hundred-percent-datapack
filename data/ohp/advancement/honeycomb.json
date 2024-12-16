@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.honeycomb": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honeycomb"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.honeycomb"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/honeycomb"
+  },
+  "sends_telemetry_event": true
+}

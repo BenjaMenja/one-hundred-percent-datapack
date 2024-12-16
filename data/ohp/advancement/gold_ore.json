@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.gold_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/gold_ore"
+  },
+  "sends_telemetry_event": true
+}

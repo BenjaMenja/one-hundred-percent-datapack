@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_pickaxe', 'item': 'minecraft:netherite_pickaxe'}

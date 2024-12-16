@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'redstone_torch', 'item': 'minecraft:redstone_torch'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cherry_button', 'item': 'minecraft:cherry_button'}

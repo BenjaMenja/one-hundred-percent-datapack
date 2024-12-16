@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_leaves"
+  },
+  "sends_telemetry_event": true
+}

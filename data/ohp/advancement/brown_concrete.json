@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_concrete"
+  },
+  "sends_telemetry_event": true
+}

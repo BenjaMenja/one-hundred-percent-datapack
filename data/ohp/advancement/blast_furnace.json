@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.blast_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blast_furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.blast_furnace"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/blast_furnace"
+  },
+  "sends_telemetry_event": true
+}

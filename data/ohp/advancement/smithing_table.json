@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.smithing_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smithing_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.smithing_table"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/smithing_table"
+  },
+  "sends_telemetry_event": true
+}

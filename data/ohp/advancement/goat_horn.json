@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.goat_horn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.goat_horn"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/goat_horn"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.name_tag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:name_tag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.name_tag"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/name_tag"
+  },
+  "sends_telemetry_event": true
+}

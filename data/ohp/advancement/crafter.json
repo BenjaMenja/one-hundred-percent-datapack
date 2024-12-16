@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crafter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crafter"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crafter"
+  },
+  "sends_telemetry_event": true
+}

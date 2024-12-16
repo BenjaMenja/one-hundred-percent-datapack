@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.carved_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carved_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.carved_pumpkin"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/carved_pumpkin"
+  },
+  "sends_telemetry_event": true
+}

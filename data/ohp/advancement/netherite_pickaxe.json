@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_pickaxe"
+  },
+  "sends_telemetry_event": true
+}

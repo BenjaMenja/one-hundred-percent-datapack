@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_sword"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_sword"
+  },
+  "sends_telemetry_event": true
+}

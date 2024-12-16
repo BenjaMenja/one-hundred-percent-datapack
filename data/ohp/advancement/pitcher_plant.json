@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pitcher_plant": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pitcher_plant"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pitcher_plant"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pitcher_plant"
+  },
+  "sends_telemetry_event": true
+}

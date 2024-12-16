@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.podzol": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:podzol"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.podzol"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/podzol"
+  },
+  "sends_telemetry_event": true
+}

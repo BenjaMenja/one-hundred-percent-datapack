@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_scrap', 'item': 'minecraft:netherite_scrap'}

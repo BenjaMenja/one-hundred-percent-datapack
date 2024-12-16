@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'spore_blossom', 'item': 'minecraft:spore_blossom'}

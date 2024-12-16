@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'howl_pottery_sherd', 'item': 'minecraft:howl_pottery_sherd'}

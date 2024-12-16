@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'coarse_dirt', 'item': 'minecraft:coarse_dirt'}

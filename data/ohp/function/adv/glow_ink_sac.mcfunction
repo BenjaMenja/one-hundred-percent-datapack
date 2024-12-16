@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'glow_ink_sac', 'item': 'minecraft:glow_ink_sac'}

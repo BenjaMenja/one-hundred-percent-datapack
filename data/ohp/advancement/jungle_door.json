@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_door"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'crimson_nylium', 'item': 'minecraft:crimson_nylium'}

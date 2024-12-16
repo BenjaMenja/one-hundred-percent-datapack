@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.smooth_stone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_stone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.smooth_stone_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/smooth_stone_slab"
+  },
+  "sends_telemetry_event": true
+}

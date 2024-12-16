@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mycelium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mycelium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mycelium"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mycelium"
+  },
+  "sends_telemetry_event": true
+}

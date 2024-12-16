@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pale_moss_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_moss_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pale_moss_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pale_moss_block"
+  },
+  "sends_telemetry_event": true
+}

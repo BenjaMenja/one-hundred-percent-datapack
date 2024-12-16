@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_block"
+  },
+  "sends_telemetry_event": true
+}

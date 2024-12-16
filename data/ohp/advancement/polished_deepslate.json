@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_deepslate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_deepslate"
+  },
+  "sends_telemetry_event": true
+}

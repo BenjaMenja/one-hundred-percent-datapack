@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.orange_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_tulip"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.orange_tulip"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/orange_tulip"
+  },
+  "sends_telemetry_event": true
+}

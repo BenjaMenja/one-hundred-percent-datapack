@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'heart_of_the_sea', 'item': 'minecraft:heart_of_the_sea'}

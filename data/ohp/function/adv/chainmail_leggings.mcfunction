@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'chainmail_leggings', 'item': 'minecraft:chainmail_leggings'}

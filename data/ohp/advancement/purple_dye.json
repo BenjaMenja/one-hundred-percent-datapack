@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.purple_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.purple_dye"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/purple_dye"
+  },
+  "sends_telemetry_event": true
+}

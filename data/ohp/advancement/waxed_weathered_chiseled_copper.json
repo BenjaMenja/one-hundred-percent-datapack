@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.waxed_weathered_chiseled_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_chiseled_copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.waxed_weathered_chiseled_copper"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/waxed_weathered_chiseled_copper"
+  },
+  "sends_telemetry_event": true
+}

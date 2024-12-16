@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.shroomlight": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shroomlight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.shroomlight"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/shroomlight"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'warped_nylium', 'item': 'minecraft:warped_nylium'}

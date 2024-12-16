@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'bamboo_fence_gate', 'item': 'minecraft:bamboo_fence_gate'}

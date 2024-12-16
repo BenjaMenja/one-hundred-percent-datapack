@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'bamboo_pressure_plate', 'item': 'minecraft:bamboo_pressure_plate'}

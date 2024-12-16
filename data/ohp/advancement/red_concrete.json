@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_concrete"
+  },
+  "sends_telemetry_event": true
+}

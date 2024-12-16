@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dried_kelp_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_kelp_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dried_kelp_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dried_kelp_block"
+  },
+  "sends_telemetry_event": true
+}

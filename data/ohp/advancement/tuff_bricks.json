@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tuff_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tuff_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tuff_bricks"
+  },
+  "sends_telemetry_event": true
+}

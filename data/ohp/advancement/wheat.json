@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wheat"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wheat"
+  },
+  "sends_telemetry_event": true
+}

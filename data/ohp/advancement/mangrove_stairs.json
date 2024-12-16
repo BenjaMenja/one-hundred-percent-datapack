@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mangrove_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mangrove_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mangrove_stairs"
+  },
+  "sends_telemetry_event": true
+}

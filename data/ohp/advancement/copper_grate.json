@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.copper_grate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/copper_grate"
+  },
+  "sends_telemetry_event": true
+}

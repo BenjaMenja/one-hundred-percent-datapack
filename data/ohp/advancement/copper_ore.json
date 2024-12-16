@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.copper_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.copper_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/copper_ore"
+  },
+  "sends_telemetry_event": true
+}

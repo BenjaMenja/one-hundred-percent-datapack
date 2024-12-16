@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_mushroom"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_mushroom"
+  },
+  "sends_telemetry_event": true
+}

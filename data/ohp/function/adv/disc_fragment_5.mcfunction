@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'disc_fragment_5', 'item': 'minecraft:disc_fragment_5'}

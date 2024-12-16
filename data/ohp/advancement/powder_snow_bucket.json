@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.powder_snow_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:powder_snow_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.powder_snow_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/powder_snow_bucket"
+  },
+  "sends_telemetry_event": true
+}

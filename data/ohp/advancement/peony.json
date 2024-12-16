@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.peony": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:peony"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.peony"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/peony"
+  },
+  "sends_telemetry_event": true
+}

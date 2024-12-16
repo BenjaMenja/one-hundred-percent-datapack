@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_hoe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_hoe"
+  },
+  "sends_telemetry_event": true
+}

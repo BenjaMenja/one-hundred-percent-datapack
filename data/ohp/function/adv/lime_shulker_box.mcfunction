@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lime_shulker_box', 'item': 'minecraft:lime_shulker_box'}

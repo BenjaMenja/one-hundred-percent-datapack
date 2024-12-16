@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.blue_orchid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_orchid"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.blue_orchid"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/blue_orchid"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pumpkin"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pumpkin"
+  },
+  "sends_telemetry_event": true
+}

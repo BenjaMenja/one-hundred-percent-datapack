@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.leather_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.leather_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/leather_boots"
+  },
+  "sends_telemetry_event": true
+}

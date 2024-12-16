@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_sandstone_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_sandstone_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_sandstone_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_sandstone_wall"
+  },
+  "sends_telemetry_event": true
+}

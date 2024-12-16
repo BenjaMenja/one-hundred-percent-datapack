@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_leggings"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_leggings"
+  },
+  "sends_telemetry_event": true
+}

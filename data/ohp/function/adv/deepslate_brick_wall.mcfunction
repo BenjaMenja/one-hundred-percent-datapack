@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'deepslate_brick_wall', 'item': 'minecraft:deepslate_brick_wall'}

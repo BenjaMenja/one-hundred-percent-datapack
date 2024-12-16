@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stonecutter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stonecutter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stonecutter"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stonecutter"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'beacon', 'item': 'minecraft:beacon'}

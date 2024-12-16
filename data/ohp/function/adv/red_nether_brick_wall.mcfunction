@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'red_nether_brick_wall', 'item': 'minecraft:red_nether_brick_wall'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.shield": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.shield"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/shield"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.quartz_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.quartz_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/quartz_slab"
+  },
+  "sends_telemetry_event": true
+}

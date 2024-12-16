@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'diorite_wall', 'item': 'minecraft:diorite_wall'}

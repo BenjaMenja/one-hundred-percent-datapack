@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_gray_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_gray_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_gray_bundle"
+  },
+  "sends_telemetry_event": true
+}

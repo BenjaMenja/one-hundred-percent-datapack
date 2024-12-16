@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pink_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_tulip"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pink_tulip"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pink_tulip"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diamond_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diamond_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diamond_block"
+  },
+  "sends_telemetry_event": true
+}

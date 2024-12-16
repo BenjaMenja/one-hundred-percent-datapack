@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ink_sac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ink_sac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ink_sac"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ink_sac"
+  },
+  "sends_telemetry_event": true
+}

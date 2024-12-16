@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'soul_torch', 'item': 'minecraft:soul_torch'}

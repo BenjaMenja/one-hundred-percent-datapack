@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_beef"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_beef"
+  },
+  "sends_telemetry_event": true
+}

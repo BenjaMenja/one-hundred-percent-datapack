@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'respawn_anchor', 'item': 'minecraft:respawn_anchor'}

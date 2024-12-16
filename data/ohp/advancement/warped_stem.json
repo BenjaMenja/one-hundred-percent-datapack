@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.warped_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.warped_stem"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/warped_stem"
+  },
+  "sends_telemetry_event": true
+}

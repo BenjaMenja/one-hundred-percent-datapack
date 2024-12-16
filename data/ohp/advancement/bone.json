@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bone"
+  },
+  "sends_telemetry_event": true
+}

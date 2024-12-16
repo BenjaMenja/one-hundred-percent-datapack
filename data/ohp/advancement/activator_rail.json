@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.activator_rail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:activator_rail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.activator_rail"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/activator_rail"
+  },
+  "sends_telemetry_event": true
+}

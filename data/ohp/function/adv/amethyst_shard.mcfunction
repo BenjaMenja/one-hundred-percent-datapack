@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'amethyst_shard', 'item': 'minecraft:amethyst_shard'}

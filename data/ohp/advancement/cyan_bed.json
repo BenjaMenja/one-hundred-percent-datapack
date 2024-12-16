@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_bed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_bed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_bed"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_bed"
+  },
+  "sends_telemetry_event": true
+}

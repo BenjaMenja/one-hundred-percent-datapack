@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dead_fire_coral_block', 'item': 'minecraft:dead_fire_coral_block'}

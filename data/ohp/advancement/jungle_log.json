@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_log"
+  },
+  "sends_telemetry_event": true
+}

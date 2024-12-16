@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.farmland": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:farmland"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.farmland"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/farmland"
+  },
+  "sends_telemetry_event": true
+}

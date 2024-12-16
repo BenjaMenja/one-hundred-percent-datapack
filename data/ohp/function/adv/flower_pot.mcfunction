@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'flower_pot', 'item': 'minecraft:flower_pot'}

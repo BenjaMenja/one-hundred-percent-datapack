@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.item_frame": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.item_frame"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/item_frame"
+  },
+  "sends_telemetry_event": true
+}

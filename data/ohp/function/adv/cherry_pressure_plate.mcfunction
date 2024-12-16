@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cherry_pressure_plate', 'item': 'minecraft:cherry_pressure_plate'}

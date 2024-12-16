@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.target": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:target"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.target"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/target"
+  },
+  "sends_telemetry_event": true
+}

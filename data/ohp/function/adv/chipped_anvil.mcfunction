@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'chipped_anvil', 'item': 'minecraft:chipped_anvil'}

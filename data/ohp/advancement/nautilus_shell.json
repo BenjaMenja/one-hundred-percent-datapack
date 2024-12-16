@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.nautilus_shell": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nautilus_shell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.nautilus_shell"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/nautilus_shell"
+  },
+  "sends_telemetry_event": true
+}

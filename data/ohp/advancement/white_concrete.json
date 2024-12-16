@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.white_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.white_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/white_concrete"
+  },
+  "sends_telemetry_event": true
+}

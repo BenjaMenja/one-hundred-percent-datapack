@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cut_copper_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cut_copper_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cut_copper_slab"
+  },
+  "sends_telemetry_event": true
+}

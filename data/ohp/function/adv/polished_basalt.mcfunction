@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'polished_basalt', 'item': 'minecraft:polished_basalt'}

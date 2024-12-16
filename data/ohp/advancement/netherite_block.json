@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_block"
+  },
+  "sends_telemetry_event": true
+}

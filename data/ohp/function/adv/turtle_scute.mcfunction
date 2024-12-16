@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'turtle_scute', 'item': 'minecraft:turtle_scute'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.heavy_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heavy_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.heavy_core"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/heavy_core"
+  },
+  "sends_telemetry_event": true
+}

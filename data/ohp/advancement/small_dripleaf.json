@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.small_dripleaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:small_dripleaf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.small_dripleaf"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/small_dripleaf"
+  },
+  "sends_telemetry_event": true
+}

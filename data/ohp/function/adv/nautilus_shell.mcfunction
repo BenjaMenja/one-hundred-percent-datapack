@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'nautilus_shell', 'item': 'minecraft:nautilus_shell'}

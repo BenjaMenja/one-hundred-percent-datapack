@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ominous_trial_key', 'item': 'minecraft:ominous_trial_key'}

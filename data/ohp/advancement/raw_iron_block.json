@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.raw_iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_iron_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.raw_iron_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/raw_iron_block"
+  },
+  "sends_telemetry_event": true
+}

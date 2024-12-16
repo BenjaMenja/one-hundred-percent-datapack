@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lily_pad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lily_pad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lily_pad"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lily_pad"
+  },
+  "sends_telemetry_event": true
+}

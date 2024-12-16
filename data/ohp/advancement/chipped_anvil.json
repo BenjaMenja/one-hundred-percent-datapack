@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chipped_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chipped_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chipped_anvil"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chipped_anvil"
+  },
+  "sends_telemetry_event": true
+}

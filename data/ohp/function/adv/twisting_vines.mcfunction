@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'twisting_vines', 'item': 'minecraft:twisting_vines'}

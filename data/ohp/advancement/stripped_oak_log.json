@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_oak_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_oak_log"
+  },
+  "sends_telemetry_event": true
+}

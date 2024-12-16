@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pufferfish_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pufferfish_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pufferfish_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pufferfish_bucket"
+  },
+  "sends_telemetry_event": true
+}

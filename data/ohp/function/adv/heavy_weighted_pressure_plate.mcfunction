@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'heavy_weighted_pressure_plate', 'item': 'minecraft:heavy_weighted_pressure_plate'}

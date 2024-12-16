@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_salmon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_salmon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_salmon"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_salmon"
+  },
+  "sends_telemetry_event": true
+}

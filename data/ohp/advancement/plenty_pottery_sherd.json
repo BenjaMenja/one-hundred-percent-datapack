@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.plenty_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:plenty_pottery_sherd"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.plenty_pottery_sherd"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/plenty_pottery_sherd"
+  },
+  "sends_telemetry_event": true
+}

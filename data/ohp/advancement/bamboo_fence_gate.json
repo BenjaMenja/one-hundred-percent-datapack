@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_fence_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_fence_gate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_fence_gate"
+  },
+  "sends_telemetry_event": true
+}

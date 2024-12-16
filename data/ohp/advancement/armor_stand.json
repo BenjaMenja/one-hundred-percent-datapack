@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.armor_stand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:armor_stand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.armor_stand"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/armor_stand"
+  },
+  "sends_telemetry_event": true
+}

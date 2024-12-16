@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'prismarine_shard', 'item': 'minecraft:prismarine_shard'}

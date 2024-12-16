@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_chestplate', 'item': 'minecraft:netherite_chestplate'}

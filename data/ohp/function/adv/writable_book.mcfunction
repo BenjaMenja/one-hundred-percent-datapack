@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'writable_book', 'item': 'minecraft:writable_book'}

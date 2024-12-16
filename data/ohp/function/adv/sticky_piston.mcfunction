@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'sticky_piston', 'item': 'minecraft:sticky_piston'}

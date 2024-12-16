@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'crimson_sign', 'item': 'minecraft:crimson_sign'}

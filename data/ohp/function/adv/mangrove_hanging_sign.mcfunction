@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mangrove_hanging_sign', 'item': 'minecraft:mangrove_hanging_sign'}

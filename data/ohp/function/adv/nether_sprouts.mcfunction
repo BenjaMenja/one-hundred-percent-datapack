@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'nether_sprouts', 'item': 'minecraft:nether_sprouts'}

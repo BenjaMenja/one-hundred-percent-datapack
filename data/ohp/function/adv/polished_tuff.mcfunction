@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'polished_tuff', 'item': 'minecraft:polished_tuff'}

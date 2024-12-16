@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'white_wool', 'item': 'minecraft:white_wool'}

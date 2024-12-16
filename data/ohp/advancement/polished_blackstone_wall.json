@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_blackstone_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_blackstone_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_blackstone_wall"
+  },
+  "sends_telemetry_event": true
+}

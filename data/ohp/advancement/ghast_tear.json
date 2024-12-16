@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ghast_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ghast_tear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ghast_tear"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ghast_tear"
+  },
+  "sends_telemetry_event": true
+}

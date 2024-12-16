@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spyglass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spyglass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spyglass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spyglass"
+  },
+  "sends_telemetry_event": true
+}

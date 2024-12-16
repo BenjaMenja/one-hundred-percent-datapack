@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.totem_of_undying": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:totem_of_undying"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.totem_of_undying"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/totem_of_undying"
+  },
+  "sends_telemetry_event": true
+}

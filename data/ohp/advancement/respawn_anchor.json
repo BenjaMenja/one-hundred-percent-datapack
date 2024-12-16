@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.respawn_anchor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:respawn_anchor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.respawn_anchor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/respawn_anchor"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'skull_banner_pattern', 'item': 'minecraft:skull_banner_pattern'}

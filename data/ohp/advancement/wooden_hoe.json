@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wooden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wooden_hoe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wooden_hoe"
+  },
+  "sends_telemetry_event": true
+}

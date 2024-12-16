@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_trapdoor"
+  },
+  "sends_telemetry_event": true
+}

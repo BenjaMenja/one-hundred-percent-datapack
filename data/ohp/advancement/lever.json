@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lever": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lever"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lever"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lever"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.flower_pot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flower_pot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.flower_pot"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/flower_pot"
+  },
+  "sends_telemetry_event": true
+}

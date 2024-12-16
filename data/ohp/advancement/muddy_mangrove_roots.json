@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.muddy_mangrove_roots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:muddy_mangrove_roots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.muddy_mangrove_roots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/muddy_mangrove_roots"
+  },
+  "sends_telemetry_event": true
+}

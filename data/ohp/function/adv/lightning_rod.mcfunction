@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lightning_rod', 'item': 'minecraft:lightning_rod'}

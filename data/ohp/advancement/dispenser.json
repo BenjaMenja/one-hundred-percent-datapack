@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dispenser": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dispenser"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dispenser"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dispenser"
+  },
+  "sends_telemetry_event": true
+}

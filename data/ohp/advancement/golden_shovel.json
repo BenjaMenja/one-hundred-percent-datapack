@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_shovel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_shovel"
+  },
+  "sends_telemetry_event": true
+}

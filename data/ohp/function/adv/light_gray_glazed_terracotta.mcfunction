@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'light_gray_glazed_terracotta', 'item': 'minecraft:light_gray_glazed_terracotta'}

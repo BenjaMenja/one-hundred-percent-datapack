@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'experience_bottle', 'item': 'minecraft:experience_bottle'}

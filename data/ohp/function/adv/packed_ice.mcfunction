@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'packed_ice', 'item': 'minecraft:packed_ice'}

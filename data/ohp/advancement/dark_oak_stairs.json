@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dark_oak_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dark_oak_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dark_oak_stairs"
+  },
+  "sends_telemetry_event": true
+}

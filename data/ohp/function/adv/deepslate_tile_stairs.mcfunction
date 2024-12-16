@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'deepslate_tile_stairs', 'item': 'minecraft:deepslate_tile_stairs'}

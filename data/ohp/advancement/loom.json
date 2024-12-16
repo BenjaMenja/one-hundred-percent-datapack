@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.loom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:loom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.loom"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/loom"
+  },
+  "sends_telemetry_event": true
+}

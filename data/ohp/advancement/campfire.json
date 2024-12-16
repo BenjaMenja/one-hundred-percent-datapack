@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.campfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.campfire"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/campfire"
+  },
+  "sends_telemetry_event": true
+}

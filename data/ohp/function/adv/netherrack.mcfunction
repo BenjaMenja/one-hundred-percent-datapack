@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherrack', 'item': 'minecraft:netherrack'}

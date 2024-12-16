@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cornflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cornflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cornflower"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cornflower"
+  },
+  "sends_telemetry_event": true
+}

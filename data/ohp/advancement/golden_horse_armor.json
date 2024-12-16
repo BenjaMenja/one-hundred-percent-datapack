@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_horse_armor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_horse_armor"
+  },
+  "sends_telemetry_event": true
+}

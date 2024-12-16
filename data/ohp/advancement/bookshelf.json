@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bookshelf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bookshelf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bookshelf"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bookshelf"
+  },
+  "sends_telemetry_event": true
+}

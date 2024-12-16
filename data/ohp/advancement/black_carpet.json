@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.black_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.black_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/black_carpet"
+  },
+  "sends_telemetry_event": true
+}

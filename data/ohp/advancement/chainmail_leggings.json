@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chainmail_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chainmail_leggings"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chainmail_leggings"
+  },
+  "sends_telemetry_event": true
+}

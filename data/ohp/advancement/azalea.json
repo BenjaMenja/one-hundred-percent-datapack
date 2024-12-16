@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.azalea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:azalea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.azalea"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/azalea"
+  },
+  "sends_telemetry_event": true
+}

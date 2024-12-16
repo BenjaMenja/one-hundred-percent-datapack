@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.flowering_azalea_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flowering_azalea_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.flowering_azalea_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/flowering_azalea_leaves"
+  },
+  "sends_telemetry_event": true
+}

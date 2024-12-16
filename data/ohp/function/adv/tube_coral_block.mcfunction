@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'tube_coral_block', 'item': 'minecraft:tube_coral_block'}

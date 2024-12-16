@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.magma_cream": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_cream"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.magma_cream"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/magma_cream"
+  },
+  "sends_telemetry_event": true
+}

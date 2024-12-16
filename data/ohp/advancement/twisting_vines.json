@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.twisting_vines": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:twisting_vines"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.twisting_vines"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/twisting_vines"
+  },
+  "sends_telemetry_event": true
+}

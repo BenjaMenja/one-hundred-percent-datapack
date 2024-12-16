@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_fence"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_fence"
+  },
+  "sends_telemetry_event": true
+}

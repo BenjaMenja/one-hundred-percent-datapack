@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.baked_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:baked_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.baked_potato"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/baked_potato"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.nether_sprouts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_sprouts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.nether_sprouts"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/nether_sprouts"
+  },
+  "sends_telemetry_event": true
+}

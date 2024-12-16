@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tnt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tnt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tnt"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tnt"
+  },
+  "sends_telemetry_event": true
+}

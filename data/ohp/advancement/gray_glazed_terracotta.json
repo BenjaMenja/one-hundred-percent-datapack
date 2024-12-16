@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.gray_glazed_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_glazed_terracotta"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.gray_glazed_terracotta"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/gray_glazed_terracotta"
+  },
+  "sends_telemetry_event": true
+}

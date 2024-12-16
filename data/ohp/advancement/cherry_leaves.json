@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_leaves"
+  },
+  "sends_telemetry_event": true
+}

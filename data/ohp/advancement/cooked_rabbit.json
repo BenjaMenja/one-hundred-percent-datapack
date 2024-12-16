@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_rabbit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_rabbit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_rabbit"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_rabbit"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tuff_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tuff_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tuff_stairs"
+  },
+  "sends_telemetry_event": true
+}

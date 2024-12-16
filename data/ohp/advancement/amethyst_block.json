@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.amethyst_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.amethyst_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/amethyst_block"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'raw_copper_block', 'item': 'minecraft:raw_copper_block'}

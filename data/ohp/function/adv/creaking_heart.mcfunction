@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'creaking_heart', 'item': 'minecraft:creaking_heart'}

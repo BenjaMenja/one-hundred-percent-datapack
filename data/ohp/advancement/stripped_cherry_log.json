@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_cherry_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_cherry_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_cherry_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_cherry_log"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'prismarine_crystals', 'item': 'minecraft:prismarine_crystals'}

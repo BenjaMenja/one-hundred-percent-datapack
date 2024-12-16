@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lapis_lazuli', 'item': 'minecraft:lapis_lazuli'}

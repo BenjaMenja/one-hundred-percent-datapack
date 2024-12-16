@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ghast_tear', 'item': 'minecraft:ghast_tear'}

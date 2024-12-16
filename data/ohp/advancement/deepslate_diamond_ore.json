@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_diamond_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_diamond_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_diamond_ore"
+  },
+  "sends_telemetry_event": true
+}

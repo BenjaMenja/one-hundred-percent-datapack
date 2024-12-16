@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_axe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_axe"
+  },
+  "sends_telemetry_event": true
+}

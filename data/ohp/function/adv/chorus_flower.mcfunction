@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'chorus_flower', 'item': 'minecraft:chorus_flower'}

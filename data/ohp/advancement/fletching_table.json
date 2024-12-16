@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.fletching_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fletching_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.fletching_table"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/fletching_table"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.purple_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.purple_wool"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/purple_wool"
+  },
+  "sends_telemetry_event": true
+}

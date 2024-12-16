@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'chain', 'item': 'minecraft:chain'}

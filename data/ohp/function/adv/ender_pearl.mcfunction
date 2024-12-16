@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ender_pearl', 'item': 'minecraft:ender_pearl'}

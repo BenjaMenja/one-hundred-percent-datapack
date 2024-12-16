@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.orange_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.orange_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/orange_bundle"
+  },
+  "sends_telemetry_event": true
+}

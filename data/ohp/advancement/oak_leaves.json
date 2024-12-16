@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oak_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oak_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oak_leaves"
+  },
+  "sends_telemetry_event": true
+}

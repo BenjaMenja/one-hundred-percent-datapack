@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chiseled_quartz_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_quartz_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chiseled_quartz_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chiseled_quartz_block"
+  },
+  "sends_telemetry_event": true
+}

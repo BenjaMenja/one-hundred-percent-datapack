@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'piglin_head', 'item': 'minecraft:piglin_head'}

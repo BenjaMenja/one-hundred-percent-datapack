@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.feather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:feather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.feather"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/feather"
+  },
+  "sends_telemetry_event": true
+}

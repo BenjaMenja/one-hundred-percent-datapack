@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.calibrated_sculk_sensor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calibrated_sculk_sensor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.calibrated_sculk_sensor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/calibrated_sculk_sensor"
+  },
+  "sends_telemetry_event": true
+}

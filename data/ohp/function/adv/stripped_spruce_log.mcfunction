@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'stripped_spruce_log', 'item': 'minecraft:stripped_spruce_log'}

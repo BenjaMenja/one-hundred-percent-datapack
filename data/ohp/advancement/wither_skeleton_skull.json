@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wither_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wither_skeleton_skull"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wither_skeleton_skull"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cookie"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cookie"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cookie"
+  },
+  "sends_telemetry_event": true
+}

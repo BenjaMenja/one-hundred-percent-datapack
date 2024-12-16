@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'phantom_membrane', 'item': 'minecraft:phantom_membrane'}

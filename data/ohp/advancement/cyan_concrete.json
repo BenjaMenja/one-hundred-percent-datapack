@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_concrete"
+  },
+  "sends_telemetry_event": true
+}

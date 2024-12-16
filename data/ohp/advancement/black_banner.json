@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.black_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.black_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/black_banner"
+  },
+  "sends_telemetry_event": true
+}

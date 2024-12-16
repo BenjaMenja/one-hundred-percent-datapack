@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ominous_bottle', 'item': 'minecraft:ominous_bottle'}

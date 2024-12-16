@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.hanging_roots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:hanging_roots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.hanging_roots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/hanging_roots"
+  },
+  "sends_telemetry_event": true
+}

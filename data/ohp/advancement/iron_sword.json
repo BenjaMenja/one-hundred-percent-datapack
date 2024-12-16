@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_sword"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_sword"
+  },
+  "sends_telemetry_event": true
+}

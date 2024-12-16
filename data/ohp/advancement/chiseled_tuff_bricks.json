@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chiseled_tuff_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_tuff_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chiseled_tuff_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chiseled_tuff_bricks"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.soul_sand"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/soul_sand"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.beetroot"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/beetroot"
+  },
+  "sends_telemetry_event": true
+}

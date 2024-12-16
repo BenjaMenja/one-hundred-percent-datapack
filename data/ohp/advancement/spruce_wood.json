@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spruce_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spruce_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spruce_wood"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'glistering_melon_slice', 'item': 'minecraft:glistering_melon_slice'}

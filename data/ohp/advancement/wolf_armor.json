@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wolf_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wolf_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wolf_armor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wolf_armor"
+  },
+  "sends_telemetry_event": true
+}

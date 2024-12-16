@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gravel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.gravel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/gravel"
+  },
+  "sends_telemetry_event": true
+}

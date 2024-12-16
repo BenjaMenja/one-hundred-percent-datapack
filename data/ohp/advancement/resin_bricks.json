@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.resin_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:resin_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.resin_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/resin_bricks"
+  },
+  "sends_telemetry_event": true
+}

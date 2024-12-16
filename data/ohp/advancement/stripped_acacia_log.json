@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_acacia_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_acacia_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_acacia_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_acacia_log"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.scaffolding": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:scaffolding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.scaffolding"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/scaffolding"
+  },
+  "sends_telemetry_event": true
+}

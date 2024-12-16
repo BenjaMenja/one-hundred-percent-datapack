@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'warped_button', 'item': 'minecraft:warped_button'}

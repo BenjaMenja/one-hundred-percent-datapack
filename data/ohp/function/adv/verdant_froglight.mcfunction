@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'verdant_froglight', 'item': 'minecraft:verdant_froglight'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_planks"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_sapling"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_sapling"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_sapling"
+  },
+  "sends_telemetry_event": true
+}

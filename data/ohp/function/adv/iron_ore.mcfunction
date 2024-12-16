@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'iron_ore', 'item': 'minecraft:iron_ore'}

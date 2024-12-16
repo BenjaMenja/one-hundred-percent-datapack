@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.repeater": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:repeater"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.repeater"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/repeater"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_block"
+  },
+  "sends_telemetry_event": true
+}

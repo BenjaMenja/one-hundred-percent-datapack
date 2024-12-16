@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ender_eye', 'item': 'minecraft:ender_eye'}

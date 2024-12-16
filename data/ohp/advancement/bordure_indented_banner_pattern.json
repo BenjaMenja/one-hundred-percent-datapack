@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bordure_indented_banner_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bordure_indented_banner_pattern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bordure_indented_banner_pattern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bordure_indented_banner_pattern"
+  },
+  "sends_telemetry_event": true
+}

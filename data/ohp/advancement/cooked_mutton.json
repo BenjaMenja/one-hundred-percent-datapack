@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_mutton": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_mutton"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_mutton"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_mutton"
+  },
+  "sends_telemetry_event": true
+}

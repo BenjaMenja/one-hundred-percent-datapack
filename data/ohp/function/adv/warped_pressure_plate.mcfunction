@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'warped_pressure_plate', 'item': 'minecraft:warped_pressure_plate'}

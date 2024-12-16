@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'exposed_copper_door', 'item': 'minecraft:exposed_copper_door'}

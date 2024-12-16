@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sculk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sculk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sculk"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sculk"
+  },
+  "sends_telemetry_event": true
+}

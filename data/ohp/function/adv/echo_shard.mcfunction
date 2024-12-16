@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'echo_shard', 'item': 'minecraft:echo_shard'}

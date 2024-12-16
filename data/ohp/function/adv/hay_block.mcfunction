@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'hay_block', 'item': 'minecraft:hay_block'}

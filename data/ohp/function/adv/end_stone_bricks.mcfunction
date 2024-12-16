@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'end_stone_bricks', 'item': 'minecraft:end_stone_bricks'}

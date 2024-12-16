@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cracked_polished_blackstone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_polished_blackstone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cracked_polished_blackstone_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cracked_polished_blackstone_bricks"
+  },
+  "sends_telemetry_event": true
+}

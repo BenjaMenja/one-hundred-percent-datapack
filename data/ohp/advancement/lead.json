@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lead"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lead"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.snowball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snowball"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.snowball"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/snowball"
+  },
+  "sends_telemetry_event": true
+}

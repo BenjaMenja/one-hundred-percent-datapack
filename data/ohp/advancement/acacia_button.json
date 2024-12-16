@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_button"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_button"
+  },
+  "sends_telemetry_event": true
+}

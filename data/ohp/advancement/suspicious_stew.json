@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.suspicious_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:suspicious_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.suspicious_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/suspicious_stew"
+  },
+  "sends_telemetry_event": true
+}

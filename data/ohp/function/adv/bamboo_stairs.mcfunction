@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'bamboo_stairs', 'item': 'minecraft:bamboo_stairs'}

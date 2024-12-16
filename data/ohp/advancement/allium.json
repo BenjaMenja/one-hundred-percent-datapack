@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.allium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:allium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.allium"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/allium"
+  },
+  "sends_telemetry_event": true
+}

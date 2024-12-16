@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chiseled_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chiseled_deepslate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chiseled_deepslate"
+  },
+  "sends_telemetry_event": true
+}

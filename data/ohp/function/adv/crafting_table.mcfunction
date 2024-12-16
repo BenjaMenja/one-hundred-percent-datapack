@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'crafting_table', 'item': 'minecraft:crafting_table'}

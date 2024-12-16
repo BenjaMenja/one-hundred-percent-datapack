@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'small_dripleaf', 'item': 'minecraft:small_dripleaf'}

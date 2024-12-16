@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dark_oak_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_sapling"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dark_oak_sapling"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dark_oak_sapling"
+  },
+  "sends_telemetry_event": true
+}

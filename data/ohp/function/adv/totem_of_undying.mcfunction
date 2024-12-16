@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'totem_of_undying', 'item': 'minecraft:totem_of_undying'}

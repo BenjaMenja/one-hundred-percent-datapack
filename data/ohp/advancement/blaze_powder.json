@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.blaze_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.blaze_powder"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/blaze_powder"
+  },
+  "sends_telemetry_event": true
+}

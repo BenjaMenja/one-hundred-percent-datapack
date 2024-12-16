@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_stained_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_stained_glass"
+  },
+  "sends_telemetry_event": true
+}

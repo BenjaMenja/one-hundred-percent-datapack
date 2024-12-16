@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_diorite_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_diorite_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_diorite_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_diorite_stairs"
+  },
+  "sends_telemetry_event": true
+}

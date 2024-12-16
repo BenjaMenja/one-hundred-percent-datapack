@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sculk_vein": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sculk_vein"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sculk_vein"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sculk_vein"
+  },
+  "sends_telemetry_event": true
+}

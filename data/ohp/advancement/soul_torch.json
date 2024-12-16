@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.soul_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_torch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.soul_torch"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/soul_torch"
+  },
+  "sends_telemetry_event": true
+}

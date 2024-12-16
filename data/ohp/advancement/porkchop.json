@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.porkchop"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/porkchop"
+  },
+  "sends_telemetry_event": true
+}

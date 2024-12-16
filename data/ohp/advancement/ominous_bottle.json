@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ominous_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ominous_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ominous_bottle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ominous_bottle"
+  },
+  "sends_telemetry_event": true
+}

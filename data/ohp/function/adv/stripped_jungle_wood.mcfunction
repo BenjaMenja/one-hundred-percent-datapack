@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'stripped_jungle_wood', 'item': 'minecraft:stripped_jungle_wood'}

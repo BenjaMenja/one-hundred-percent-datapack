@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.clay_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay_ball"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.clay_ball"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/clay_ball"
+  },
+  "sends_telemetry_event": true
+}

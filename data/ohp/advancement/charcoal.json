@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.charcoal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.charcoal"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/charcoal"
+  },
+  "sends_telemetry_event": true
+}

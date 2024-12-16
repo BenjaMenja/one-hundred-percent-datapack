@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_11"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_11"
+  },
+  "sends_telemetry_event": true
+}

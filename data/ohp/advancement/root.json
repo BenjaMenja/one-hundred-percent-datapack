@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "ohp.root": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "The root advancement!",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dirt"
+    },
+    "show_toast": false,
+    "title": "Root"
+  },
+  "requirements": [
+    [
+      "ohp.root"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

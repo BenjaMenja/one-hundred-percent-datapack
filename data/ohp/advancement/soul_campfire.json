@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.soul_campfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.soul_campfire"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/soul_campfire"
+  },
+  "sends_telemetry_event": true
+}

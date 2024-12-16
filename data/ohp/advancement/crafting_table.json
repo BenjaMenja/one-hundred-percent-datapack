@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crafting_table"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crafting_table"
+  },
+  "sends_telemetry_event": true
+}

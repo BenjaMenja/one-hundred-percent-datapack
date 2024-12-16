@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.prismarine_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.prismarine_shard"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/prismarine_shard"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mojang_banner_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mojang_banner_pattern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mojang_banner_pattern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mojang_banner_pattern"
+  },
+  "sends_telemetry_event": true
+}

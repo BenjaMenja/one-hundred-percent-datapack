@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.glistering_melon_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glistering_melon_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.glistering_melon_slice"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/glistering_melon_slice"
+  },
+  "sends_telemetry_event": true
+}

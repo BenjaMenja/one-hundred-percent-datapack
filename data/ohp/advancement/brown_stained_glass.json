@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_stained_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_stained_glass"
+  },
+  "sends_telemetry_event": true
+}

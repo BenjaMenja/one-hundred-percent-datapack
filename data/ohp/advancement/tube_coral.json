@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tube_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tube_coral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tube_coral"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tube_coral"
+  },
+  "sends_telemetry_event": true
+}

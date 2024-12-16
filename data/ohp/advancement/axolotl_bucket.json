@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.axolotl_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:axolotl_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.axolotl_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/axolotl_bucket"
+  },
+  "sends_telemetry_event": true
+}

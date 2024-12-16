@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.magenta_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_terracotta"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.magenta_terracotta"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/magenta_terracotta"
+  },
+  "sends_telemetry_event": true
+}

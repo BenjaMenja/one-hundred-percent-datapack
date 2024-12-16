@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'purple_stained_glass_pane', 'item': 'minecraft:purple_stained_glass_pane'}

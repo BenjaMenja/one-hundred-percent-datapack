@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_fence"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_fence"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'carrot_on_a_stick', 'item': 'minecraft:carrot_on_a_stick'}

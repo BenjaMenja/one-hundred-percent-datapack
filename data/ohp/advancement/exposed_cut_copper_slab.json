@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.exposed_cut_copper_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.exposed_cut_copper_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/exposed_cut_copper_slab"
+  },
+  "sends_telemetry_event": true
+}

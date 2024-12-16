@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'diamond_chestplate', 'item': 'minecraft:diamond_chestplate'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.short_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:short_grass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.short_grass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/short_grass"
+  },
+  "sends_telemetry_event": true
+}

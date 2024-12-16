@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lingering_potion', 'item': 'minecraft:lingering_potion'}

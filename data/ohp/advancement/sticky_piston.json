@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sticky_piston": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sticky_piston"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sticky_piston"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sticky_piston"
+  },
+  "sends_telemetry_event": true
+}

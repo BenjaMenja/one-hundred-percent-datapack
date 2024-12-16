@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tropical_fish_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tropical_fish_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tropical_fish_bucket"
+  },
+  "sends_telemetry_event": true
+}

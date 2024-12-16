@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'raiser_armor_trim_smithing_template', 'item': 'minecraft:raiser_armor_trim_smithing_template'}

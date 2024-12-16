@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.nether_quartz_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_quartz_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.nether_quartz_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/nether_quartz_ore"
+  },
+  "sends_telemetry_event": true
+}

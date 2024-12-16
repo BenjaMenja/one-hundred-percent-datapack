@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'fire_coral_block', 'item': 'minecraft:fire_coral_block'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mossy_stone_brick_wall', 'item': 'minecraft:mossy_stone_brick_wall'}

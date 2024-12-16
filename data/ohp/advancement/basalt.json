@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:basalt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.basalt"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/basalt"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_gray_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_gray_stained_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_gray_stained_glass"
+  },
+  "sends_telemetry_event": true
+}

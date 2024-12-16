@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.packed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:packed_mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.packed_mud"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/packed_mud"
+  },
+  "sends_telemetry_event": true
+}

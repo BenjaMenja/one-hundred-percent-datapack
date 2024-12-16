@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'flow_armor_trim_smithing_template', 'item': 'minecraft:flow_armor_trim_smithing_template'}

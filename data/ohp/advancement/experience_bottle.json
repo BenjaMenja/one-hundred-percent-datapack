@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.experience_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:experience_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.experience_bottle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/experience_bottle"
+  },
+  "sends_telemetry_event": true
+}

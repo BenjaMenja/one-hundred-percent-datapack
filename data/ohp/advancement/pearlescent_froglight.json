@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pearlescent_froglight": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pearlescent_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pearlescent_froglight"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pearlescent_froglight"
+  },
+  "sends_telemetry_event": true
+}

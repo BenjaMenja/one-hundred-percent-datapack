@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.packed_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:packed_ice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.packed_ice"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/packed_ice"
+  },
+  "sends_telemetry_event": true
+}

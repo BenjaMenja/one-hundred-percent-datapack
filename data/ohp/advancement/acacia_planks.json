@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_planks"
+  },
+  "sends_telemetry_event": true
+}

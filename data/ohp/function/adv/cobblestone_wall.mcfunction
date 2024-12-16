@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cobblestone_wall', 'item': 'minecraft:cobblestone_wall'}

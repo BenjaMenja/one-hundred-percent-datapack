@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_granite_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_granite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_granite_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_granite_slab"
+  },
+  "sends_telemetry_event": true
+}

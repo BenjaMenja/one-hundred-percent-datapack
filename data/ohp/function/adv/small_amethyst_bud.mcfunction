@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'small_amethyst_bud', 'item': 'minecraft:small_amethyst_bud'}

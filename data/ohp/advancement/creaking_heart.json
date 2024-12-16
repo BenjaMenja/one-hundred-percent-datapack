@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.creaking_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:creaking_heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.creaking_heart"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/creaking_heart"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_door"
+  },
+  "sends_telemetry_event": true
+}

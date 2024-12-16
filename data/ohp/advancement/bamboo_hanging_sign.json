@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_hanging_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_hanging_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_hanging_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_hanging_sign"
+  },
+  "sends_telemetry_event": true
+}

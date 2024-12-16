@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chicken"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chicken"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chicken"
+  },
+  "sends_telemetry_event": true
+}

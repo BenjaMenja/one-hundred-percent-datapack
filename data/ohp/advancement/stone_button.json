@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_button"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_button"
+  },
+  "sends_telemetry_event": true
+}

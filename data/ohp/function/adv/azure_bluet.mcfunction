@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'azure_bluet', 'item': 'minecraft:azure_bluet'}

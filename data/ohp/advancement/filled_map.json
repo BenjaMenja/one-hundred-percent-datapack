@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.filled_map": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.filled_map"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/filled_map"
+  },
+  "sends_telemetry_event": true
+}

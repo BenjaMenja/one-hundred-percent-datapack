@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_axe', 'item': 'minecraft:netherite_axe'}

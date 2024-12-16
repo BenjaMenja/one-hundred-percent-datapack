@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.smoker": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.smoker"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/smoker"
+  },
+  "sends_telemetry_event": true
+}

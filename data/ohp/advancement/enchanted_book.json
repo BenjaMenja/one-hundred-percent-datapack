@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.enchanted_book"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/enchanted_book"
+  },
+  "sends_telemetry_event": true
+}

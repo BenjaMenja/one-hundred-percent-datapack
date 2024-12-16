@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lectern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lectern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lectern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lectern"
+  },
+  "sends_telemetry_event": true
+}

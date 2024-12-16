@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cocoa_beans": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cocoa_beans"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cocoa_beans"
+  },
+  "sends_telemetry_event": true
+}

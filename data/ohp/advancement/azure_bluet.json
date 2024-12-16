@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.azure_bluet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:azure_bluet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.azure_bluet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/azure_bluet"
+  },
+  "sends_telemetry_event": true
+}

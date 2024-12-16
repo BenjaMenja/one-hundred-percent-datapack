@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.trident": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:trident"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.trident"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/trident"
+  },
+  "sends_telemetry_event": true
+}

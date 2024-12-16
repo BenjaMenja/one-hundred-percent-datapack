@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pale_hanging_moss": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_hanging_moss"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pale_hanging_moss"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pale_hanging_moss"
+  },
+  "sends_telemetry_event": true
+}

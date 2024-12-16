@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'piglin_banner_pattern', 'item': 'minecraft:piglin_banner_pattern'}

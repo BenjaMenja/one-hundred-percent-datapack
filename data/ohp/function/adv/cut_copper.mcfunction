@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cut_copper', 'item': 'minecraft:cut_copper'}

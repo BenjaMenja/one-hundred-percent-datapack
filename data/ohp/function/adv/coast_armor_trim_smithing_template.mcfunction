@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'coast_armor_trim_smithing_template', 'item': 'minecraft:coast_armor_trim_smithing_template'}

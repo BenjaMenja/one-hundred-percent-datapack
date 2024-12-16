@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.purpur_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purpur_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.purpur_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/purpur_block"
+  },
+  "sends_telemetry_event": true
+}

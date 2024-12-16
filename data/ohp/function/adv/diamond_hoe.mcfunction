@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'diamond_hoe', 'item': 'minecraft:diamond_hoe'}

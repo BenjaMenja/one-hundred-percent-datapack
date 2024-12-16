@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mangrove_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mangrove_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mangrove_leaves"
+  },
+  "sends_telemetry_event": true
+}

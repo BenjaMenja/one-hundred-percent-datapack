@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cracked_deepslate_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_deepslate_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cracked_deepslate_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cracked_deepslate_bricks"
+  },
+  "sends_telemetry_event": true
+}

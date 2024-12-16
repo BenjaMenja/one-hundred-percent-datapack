@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.white_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.white_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/white_banner"
+  },
+  "sends_telemetry_event": true
+}

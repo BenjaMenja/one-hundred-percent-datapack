@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wayfinder_armor_trim_smithing_template', 'item': 'minecraft:wayfinder_armor_trim_smithing_template'}

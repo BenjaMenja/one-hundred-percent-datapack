@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'recovery_compass', 'item': 'minecraft:recovery_compass'}

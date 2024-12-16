@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'polished_diorite', 'item': 'minecraft:polished_diorite'}

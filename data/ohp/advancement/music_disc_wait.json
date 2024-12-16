@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_wait": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_wait"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_wait"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_wait"
+  },
+  "sends_telemetry_event": true
+}

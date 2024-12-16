@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_planks"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cut_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cut_sandstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cut_sandstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cut_sandstone"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_raft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_raft"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_raft"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_raft"
+  },
+  "sends_telemetry_event": true
+}

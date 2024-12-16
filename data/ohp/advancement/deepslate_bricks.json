@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_bricks"
+  },
+  "sends_telemetry_event": true
+}

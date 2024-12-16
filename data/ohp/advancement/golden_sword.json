@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_sword"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_sword"
+  },
+  "sends_telemetry_event": true
+}

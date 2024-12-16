@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'glow_item_frame', 'item': 'minecraft:glow_item_frame'}

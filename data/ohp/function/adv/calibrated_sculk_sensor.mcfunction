@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'calibrated_sculk_sensor', 'item': 'minecraft:calibrated_sculk_sensor'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lily_of_the_valley', 'item': 'minecraft:lily_of_the_valley'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wind_charge', 'item': 'minecraft:wind_charge'}

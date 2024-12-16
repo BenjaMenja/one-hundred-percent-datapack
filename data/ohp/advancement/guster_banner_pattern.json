@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.guster_banner_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:guster_banner_pattern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.guster_banner_pattern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/guster_banner_pattern"
+  },
+  "sends_telemetry_event": true
+}

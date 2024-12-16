@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mangrove_planks', 'item': 'minecraft:mangrove_planks'}

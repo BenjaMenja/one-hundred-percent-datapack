@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_slab"
+  },
+  "sends_telemetry_event": true
+}

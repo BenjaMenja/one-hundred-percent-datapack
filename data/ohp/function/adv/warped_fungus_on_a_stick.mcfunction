@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'warped_fungus_on_a_stick', 'item': 'minecraft:warped_fungus_on_a_stick'}

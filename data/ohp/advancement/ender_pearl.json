@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ender_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ender_pearl"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ender_pearl"
+  },
+  "sends_telemetry_event": true
+}

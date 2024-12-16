@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.weeping_vines": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:weeping_vines"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.weeping_vines"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/weeping_vines"
+  },
+  "sends_telemetry_event": true
+}

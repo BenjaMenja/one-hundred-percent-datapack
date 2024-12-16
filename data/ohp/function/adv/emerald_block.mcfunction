@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'emerald_block', 'item': 'minecraft:emerald_block'}

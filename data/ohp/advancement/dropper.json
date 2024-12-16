@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dropper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dropper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dropper"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dropper"
+  },
+  "sends_telemetry_event": true
+}

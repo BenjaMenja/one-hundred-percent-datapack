@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_sword"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_sword"
+  },
+  "sends_telemetry_event": true
+}

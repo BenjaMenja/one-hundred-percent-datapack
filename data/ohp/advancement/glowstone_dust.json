@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.glowstone_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.glowstone_dust"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/glowstone_dust"
+  },
+  "sends_telemetry_event": true
+}

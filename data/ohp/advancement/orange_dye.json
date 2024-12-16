@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.orange_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.orange_dye"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/orange_dye"
+  },
+  "sends_telemetry_event": true
+}

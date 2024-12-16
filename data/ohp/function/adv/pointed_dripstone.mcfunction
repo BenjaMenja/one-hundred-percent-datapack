@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'pointed_dripstone', 'item': 'minecraft:pointed_dripstone'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'hopper_minecart', 'item': 'minecraft:hopper_minecart'}

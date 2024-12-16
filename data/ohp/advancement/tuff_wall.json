@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tuff_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tuff_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tuff_wall"
+  },
+  "sends_telemetry_event": true
+}

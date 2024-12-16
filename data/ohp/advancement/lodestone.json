@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lodestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lodestone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lodestone"
+  },
+  "sends_telemetry_event": true
+}

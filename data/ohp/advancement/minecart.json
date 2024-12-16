@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.minecart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:minecart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.minecart"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/minecart"
+  },
+  "sends_telemetry_event": true
+}

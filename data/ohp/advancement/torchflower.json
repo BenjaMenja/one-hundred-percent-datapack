@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.torchflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.torchflower"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/torchflower"
+  },
+  "sends_telemetry_event": true
+}

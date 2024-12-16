@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tipped_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tipped_arrow"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tipped_arrow"
+  },
+  "sends_telemetry_event": true
+}

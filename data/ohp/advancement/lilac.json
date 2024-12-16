@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lilac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lilac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lilac"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lilac"
+  },
+  "sends_telemetry_event": true
+}

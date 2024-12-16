@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'chiseled_red_sandstone', 'item': 'minecraft:chiseled_red_sandstone'}

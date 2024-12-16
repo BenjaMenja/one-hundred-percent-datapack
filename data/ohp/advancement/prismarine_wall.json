@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.prismarine_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.prismarine_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/prismarine_wall"
+  },
+  "sends_telemetry_event": true
+}

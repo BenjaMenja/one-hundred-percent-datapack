@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tinted_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tinted_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tinted_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tinted_glass"
+  },
+  "sends_telemetry_event": true
+}

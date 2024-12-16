@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cobbled_deepslate_stairs', 'item': 'minecraft:cobbled_deepslate_stairs'}

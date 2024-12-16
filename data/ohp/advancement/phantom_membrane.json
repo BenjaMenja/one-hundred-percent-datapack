@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.phantom_membrane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:phantom_membrane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.phantom_membrane"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/phantom_membrane"
+  },
+  "sends_telemetry_event": true
+}

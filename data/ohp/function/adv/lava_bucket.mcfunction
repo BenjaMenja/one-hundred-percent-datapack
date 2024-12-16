@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lava_bucket', 'item': 'minecraft:lava_bucket'}

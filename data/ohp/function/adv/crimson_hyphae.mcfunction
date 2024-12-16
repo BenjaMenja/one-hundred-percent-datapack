@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'crimson_hyphae', 'item': 'minecraft:crimson_hyphae'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'pumpkin_seeds', 'item': 'minecraft:pumpkin_seeds'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'birch_chest_boat', 'item': 'minecraft:birch_chest_boat'}

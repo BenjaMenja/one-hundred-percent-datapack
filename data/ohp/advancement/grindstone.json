@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.grindstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:grindstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.grindstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/grindstone"
+  },
+  "sends_telemetry_event": true
+}

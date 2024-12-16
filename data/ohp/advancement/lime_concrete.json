@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lime_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lime_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lime_concrete"
+  },
+  "sends_telemetry_event": true
+}

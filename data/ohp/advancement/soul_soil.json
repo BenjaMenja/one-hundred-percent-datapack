@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.soul_soil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_soil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.soul_soil"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/soul_soil"
+  },
+  "sends_telemetry_event": true
+}

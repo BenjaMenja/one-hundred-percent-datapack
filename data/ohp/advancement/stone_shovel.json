@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stone_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stone_shovel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stone_shovel"
+  },
+  "sends_telemetry_event": true
+}

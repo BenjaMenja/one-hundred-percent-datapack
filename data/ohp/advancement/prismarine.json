@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.prismarine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.prismarine"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/prismarine"
+  },
+  "sends_telemetry_event": true
+}

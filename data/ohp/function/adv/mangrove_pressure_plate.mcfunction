@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mangrove_pressure_plate', 'item': 'minecraft:mangrove_pressure_plate'}

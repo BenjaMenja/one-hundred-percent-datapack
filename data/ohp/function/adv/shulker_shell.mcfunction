@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'shulker_shell', 'item': 'minecraft:shulker_shell'}

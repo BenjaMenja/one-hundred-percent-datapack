@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_blackstone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_blackstone_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_blackstone_slab"
+  },
+  "sends_telemetry_event": true
+}

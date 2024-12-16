@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.verdant_froglight": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:verdant_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.verdant_froglight"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/verdant_froglight"
+  },
+  "sends_telemetry_event": true
+}

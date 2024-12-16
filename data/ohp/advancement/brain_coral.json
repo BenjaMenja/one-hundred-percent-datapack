@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brain_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brain_coral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brain_coral"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brain_coral"
+  },
+  "sends_telemetry_event": true
+}

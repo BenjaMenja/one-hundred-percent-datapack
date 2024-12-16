@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cracked_nether_bricks', 'item': 'minecraft:cracked_nether_bricks'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spruce_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spruce_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spruce_log"
+  },
+  "sends_telemetry_event": true
+}

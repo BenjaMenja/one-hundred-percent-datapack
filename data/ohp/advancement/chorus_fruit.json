@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chorus_fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chorus_fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chorus_fruit"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chorus_fruit"
+  },
+  "sends_telemetry_event": true
+}

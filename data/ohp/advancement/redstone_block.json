@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.redstone_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.redstone_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/redstone_block"
+  },
+  "sends_telemetry_event": true
+}

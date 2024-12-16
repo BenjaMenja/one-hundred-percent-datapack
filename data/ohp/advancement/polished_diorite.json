@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_diorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_diorite"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_diorite"
+  },
+  "sends_telemetry_event": true
+}

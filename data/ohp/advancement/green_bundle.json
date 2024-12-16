@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.green_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.green_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/green_bundle"
+  },
+  "sends_telemetry_event": true
+}

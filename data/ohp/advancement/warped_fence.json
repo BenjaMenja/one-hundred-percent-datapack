@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.warped_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.warped_fence"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/warped_fence"
+  },
+  "sends_telemetry_event": true
+}

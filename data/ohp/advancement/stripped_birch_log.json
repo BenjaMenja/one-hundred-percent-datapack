@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_birch_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_birch_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_birch_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_birch_log"
+  },
+  "sends_telemetry_event": true
+}

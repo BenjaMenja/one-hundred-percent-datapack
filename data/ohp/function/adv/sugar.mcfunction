@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'sugar', 'item': 'minecraft:sugar'}

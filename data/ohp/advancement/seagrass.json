@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.seagrass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:seagrass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.seagrass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/seagrass"
+  },
+  "sends_telemetry_event": true
+}

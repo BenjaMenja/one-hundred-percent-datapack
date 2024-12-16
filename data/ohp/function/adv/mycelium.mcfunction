@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mycelium', 'item': 'minecraft:mycelium'}

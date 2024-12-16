@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.fern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.fern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/fern"
+  },
+  "sends_telemetry_event": true
+}

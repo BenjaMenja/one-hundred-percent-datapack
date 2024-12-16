@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'music_disc_far', 'item': 'minecraft:music_disc_far'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pale_oak_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pale_oak_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pale_oak_trapdoor"
+  },
+  "sends_telemetry_event": true
+}

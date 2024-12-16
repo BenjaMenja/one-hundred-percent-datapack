@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dandelion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dandelion"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dandelion"
+  },
+  "sends_telemetry_event": true
+}

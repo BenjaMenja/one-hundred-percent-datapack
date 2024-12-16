@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_tuff_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_tuff_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_tuff_wall"
+  },
+  "sends_telemetry_event": true
+}

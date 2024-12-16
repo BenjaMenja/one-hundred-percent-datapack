@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.suspicious_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:suspicious_sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.suspicious_sand"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/suspicious_sand"
+  },
+  "sends_telemetry_event": true
+}

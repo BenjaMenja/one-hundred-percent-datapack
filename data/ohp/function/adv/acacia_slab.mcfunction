@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'acacia_slab', 'item': 'minecraft:acacia_slab'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherrack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherrack"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherrack"
+  },
+  "sends_telemetry_event": true
+}

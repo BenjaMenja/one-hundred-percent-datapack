@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'trapped_chest', 'item': 'minecraft:trapped_chest'}

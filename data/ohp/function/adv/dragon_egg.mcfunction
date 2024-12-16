@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dragon_egg', 'item': 'minecraft:dragon_egg'}

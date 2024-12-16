@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diamond_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diamond_chestplate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diamond_chestplate"
+  },
+  "sends_telemetry_event": true
+}

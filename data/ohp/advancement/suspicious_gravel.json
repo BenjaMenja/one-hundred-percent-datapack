@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.suspicious_gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:suspicious_gravel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.suspicious_gravel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/suspicious_gravel"
+  },
+  "sends_telemetry_event": true
+}

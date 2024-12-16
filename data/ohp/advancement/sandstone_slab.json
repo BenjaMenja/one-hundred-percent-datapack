@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sandstone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sandstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sandstone_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sandstone_slab"
+  },
+  "sends_telemetry_event": true
+}

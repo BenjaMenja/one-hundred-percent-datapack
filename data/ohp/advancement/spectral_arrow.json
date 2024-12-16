@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spectral_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spectral_arrow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spectral_arrow"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spectral_arrow"
+  },
+  "sends_telemetry_event": true
+}

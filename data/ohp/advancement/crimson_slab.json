@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_slab"
+  },
+  "sends_telemetry_event": true
+}

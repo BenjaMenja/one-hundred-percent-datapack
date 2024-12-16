@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'orange_tulip', 'item': 'minecraft:orange_tulip'}

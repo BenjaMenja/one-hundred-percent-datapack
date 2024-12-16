@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'netherite_leggings', 'item': 'minecraft:netherite_leggings'}

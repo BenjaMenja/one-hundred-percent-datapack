@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_spruce_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_spruce_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_spruce_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_spruce_wood"
+  },
+  "sends_telemetry_event": true
+}

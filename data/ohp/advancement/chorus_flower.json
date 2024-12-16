@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chorus_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chorus_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chorus_flower"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chorus_flower"
+  },
+  "sends_telemetry_event": true
+}

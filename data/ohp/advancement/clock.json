@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.clock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.clock"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/clock"
+  },
+  "sends_telemetry_event": true
+}

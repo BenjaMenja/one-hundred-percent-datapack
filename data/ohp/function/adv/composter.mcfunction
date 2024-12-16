@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'composter', 'item': 'minecraft:composter'}

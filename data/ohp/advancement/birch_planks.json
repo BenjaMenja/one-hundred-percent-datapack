@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_planks"
+  },
+  "sends_telemetry_event": true
+}

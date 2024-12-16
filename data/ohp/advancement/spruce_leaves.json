@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spruce_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spruce_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spruce_leaves"
+  },
+  "sends_telemetry_event": true
+}

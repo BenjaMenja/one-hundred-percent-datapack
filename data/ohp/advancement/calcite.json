@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calcite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.calcite"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/calcite"
+  },
+  "sends_telemetry_event": true
+}

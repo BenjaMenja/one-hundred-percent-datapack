@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mud_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mud_bricks"
+  },
+  "sends_telemetry_event": true
+}

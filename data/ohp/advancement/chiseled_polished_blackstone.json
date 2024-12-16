@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chiseled_polished_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_polished_blackstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chiseled_polished_blackstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chiseled_polished_blackstone"
+  },
+  "sends_telemetry_event": true
+}

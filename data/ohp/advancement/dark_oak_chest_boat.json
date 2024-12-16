@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dark_oak_chest_boat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_chest_boat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dark_oak_chest_boat"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dark_oak_chest_boat"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lantern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lantern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lantern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lantern"
+  },
+  "sends_telemetry_event": true
+}

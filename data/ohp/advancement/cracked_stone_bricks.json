@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cracked_stone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_stone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cracked_stone_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cracked_stone_bricks"
+  },
+  "sends_telemetry_event": true
+}

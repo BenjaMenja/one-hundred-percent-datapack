@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oxeye_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxeye_daisy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oxeye_daisy"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oxeye_daisy"
+  },
+  "sends_telemetry_event": true
+}

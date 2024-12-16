@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_tuff"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_tuff"
+  },
+  "sends_telemetry_event": true
+}

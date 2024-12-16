@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_banner"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pale_oak_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pale_oak_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pale_oak_door"
+  },
+  "sends_telemetry_event": true
+}

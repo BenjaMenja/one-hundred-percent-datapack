@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ochre_froglight": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ochre_froglight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ochre_froglight"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ochre_froglight"
+  },
+  "sends_telemetry_event": true
+}

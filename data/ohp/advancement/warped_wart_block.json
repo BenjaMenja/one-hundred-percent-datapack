@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.warped_wart_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_wart_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.warped_wart_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/warped_wart_block"
+  },
+  "sends_telemetry_event": true
+}

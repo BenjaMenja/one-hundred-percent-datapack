@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.skull_pottery_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:skull_pottery_sherd"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.skull_pottery_sherd"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/skull_pottery_sherd"
+  },
+  "sends_telemetry_event": true
+}

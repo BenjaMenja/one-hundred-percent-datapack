@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'blast_furnace', 'item': 'minecraft:blast_furnace'}

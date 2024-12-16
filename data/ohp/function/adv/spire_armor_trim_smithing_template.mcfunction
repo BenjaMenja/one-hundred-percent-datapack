@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'spire_armor_trim_smithing_template', 'item': 'minecraft:spire_armor_trim_smithing_template'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.echo_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.echo_shard"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/echo_shard"
+  },
+  "sends_telemetry_event": true
+}

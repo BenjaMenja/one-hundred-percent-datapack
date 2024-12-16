@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.honey_bottle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/honey_bottle"
+  },
+  "sends_telemetry_event": true
+}

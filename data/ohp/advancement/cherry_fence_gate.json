@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_fence_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_fence_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_fence_gate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_fence_gate"
+  },
+  "sends_telemetry_event": true
+}

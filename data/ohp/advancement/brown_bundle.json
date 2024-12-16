@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_bundle"
+  },
+  "sends_telemetry_event": true
+}

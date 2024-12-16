@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cyan_dye', 'item': 'minecraft:cyan_dye'}

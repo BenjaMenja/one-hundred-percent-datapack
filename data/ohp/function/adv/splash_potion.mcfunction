@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'splash_potion', 'item': 'minecraft:splash_potion'}

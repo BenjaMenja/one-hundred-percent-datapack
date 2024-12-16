@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brick_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brick_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brick_wall"
+  },
+  "sends_telemetry_event": true
+}

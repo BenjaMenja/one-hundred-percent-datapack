@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'powered_rail', 'item': 'minecraft:powered_rail'}

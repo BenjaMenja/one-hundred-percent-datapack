@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.coal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.coal_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/coal_ore"
+  },
+  "sends_telemetry_event": true
+}

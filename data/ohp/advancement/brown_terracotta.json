@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_terracotta"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_terracotta"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_terracotta"
+  },
+  "sends_telemetry_event": true
+}

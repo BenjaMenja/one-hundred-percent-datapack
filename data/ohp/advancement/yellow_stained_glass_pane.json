@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.yellow_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_stained_glass_pane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.yellow_stained_glass_pane"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/yellow_stained_glass_pane"
+  },
+  "sends_telemetry_event": true
+}

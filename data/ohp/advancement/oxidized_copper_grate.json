@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oxidized_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oxidized_copper_grate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oxidized_copper_grate"
+  },
+  "sends_telemetry_event": true
+}

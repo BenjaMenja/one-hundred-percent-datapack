@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wooden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wooden_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wooden_pickaxe"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cobweb": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobweb"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cobweb"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cobweb"
+  },
+  "sends_telemetry_event": true
+}

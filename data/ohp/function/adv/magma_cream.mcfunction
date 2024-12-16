@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'magma_cream', 'item': 'minecraft:magma_cream'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'firework_star', 'item': 'minecraft:firework_star'}

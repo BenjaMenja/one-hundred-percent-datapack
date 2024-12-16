@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cooked_cod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_cod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cooked_cod"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cooked_cod"
+  },
+  "sends_telemetry_event": true
+}

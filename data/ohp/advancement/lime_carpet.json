@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lime_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lime_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lime_carpet"
+  },
+  "sends_telemetry_event": true
+}

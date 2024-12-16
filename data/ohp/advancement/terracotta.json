@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:terracotta"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.terracotta"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/terracotta"
+  },
+  "sends_telemetry_event": true
+}

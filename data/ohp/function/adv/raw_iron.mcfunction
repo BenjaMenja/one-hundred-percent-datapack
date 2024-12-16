@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'raw_iron', 'item': 'minecraft:raw_iron'}

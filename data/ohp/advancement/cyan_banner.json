@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_banner"
+  },
+  "sends_telemetry_event": true
+}

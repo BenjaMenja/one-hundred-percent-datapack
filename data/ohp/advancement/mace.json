@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mace"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mace"
+  },
+  "sends_telemetry_event": true
+}

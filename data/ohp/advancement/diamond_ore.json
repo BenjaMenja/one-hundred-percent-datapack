@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diamond_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diamond_ore"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.rabbit_foot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rabbit_foot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.rabbit_foot"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/rabbit_foot"
+  },
+  "sends_telemetry_event": true
+}

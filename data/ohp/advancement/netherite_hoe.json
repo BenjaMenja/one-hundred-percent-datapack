@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_hoe"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_hoe"
+  },
+  "sends_telemetry_event": true
+}

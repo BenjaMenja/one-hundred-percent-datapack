@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.orange_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.orange_stained_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/orange_stained_glass"
+  },
+  "sends_telemetry_event": true
+}

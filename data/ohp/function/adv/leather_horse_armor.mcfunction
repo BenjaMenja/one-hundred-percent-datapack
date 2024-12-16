@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'leather_horse_armor', 'item': 'minecraft:leather_horse_armor'}

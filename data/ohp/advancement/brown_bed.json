@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_bed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_bed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_bed"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_bed"
+  },
+  "sends_telemetry_event": true
+}

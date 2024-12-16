@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'end_crystal', 'item': 'minecraft:end_crystal'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oak_hanging_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_hanging_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oak_hanging_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oak_hanging_sign"
+  },
+  "sends_telemetry_event": true
+}

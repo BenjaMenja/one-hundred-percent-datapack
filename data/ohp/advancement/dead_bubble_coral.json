@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dead_bubble_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dead_bubble_coral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dead_bubble_coral"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dead_bubble_coral"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dead_tube_coral_fan', 'item': 'minecraft:dead_tube_coral_fan'}

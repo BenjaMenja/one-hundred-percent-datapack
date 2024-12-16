@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wet_sponge', 'item': 'minecraft:wet_sponge'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'pale_hanging_moss', 'item': 'minecraft:pale_hanging_moss'}

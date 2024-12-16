@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'kelp', 'item': 'minecraft:kelp'}

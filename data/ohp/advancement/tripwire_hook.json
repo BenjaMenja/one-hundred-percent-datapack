@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tripwire_hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tripwire_hook"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tripwire_hook"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tripwire_hook"
+  },
+  "sends_telemetry_event": true
+}

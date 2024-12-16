@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cod_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cod_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cod_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cod_bucket"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.end_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:end_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.end_crystal"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/end_crystal"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cyan_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cyan_dye"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cyan_dye"
+  },
+  "sends_telemetry_event": true
+}

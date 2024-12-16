@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.saddle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:saddle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.saddle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/saddle"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'yellow_terracotta', 'item': 'minecraft:yellow_terracotta'}

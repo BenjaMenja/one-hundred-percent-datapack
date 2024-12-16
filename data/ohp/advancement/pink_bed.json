@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pink_bed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_bed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pink_bed"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pink_bed"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diorite_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diorite_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diorite_wall"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lingering_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lingering_potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lingering_potion"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lingering_potion"
+  },
+  "sends_telemetry_event": true
+}

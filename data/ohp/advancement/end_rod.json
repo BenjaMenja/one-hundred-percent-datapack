@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.end_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:end_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.end_rod"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/end_rod"
+  },
+  "sends_telemetry_event": true
+}

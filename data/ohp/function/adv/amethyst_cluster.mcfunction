@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'amethyst_cluster', 'item': 'minecraft:amethyst_cluster'}

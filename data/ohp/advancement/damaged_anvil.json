@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.damaged_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:damaged_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.damaged_anvil"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/damaged_anvil"
+  },
+  "sends_telemetry_event": true
+}

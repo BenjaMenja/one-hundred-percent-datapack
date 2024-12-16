@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.melon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:melon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.melon"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/melon"
+  },
+  "sends_telemetry_event": true
+}

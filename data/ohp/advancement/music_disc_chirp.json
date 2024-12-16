@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_chirp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_chirp"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_chirp"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_chirp"
+  },
+  "sends_telemetry_event": true
+}

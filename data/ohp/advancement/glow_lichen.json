@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.glow_lichen": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_lichen"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.glow_lichen"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/glow_lichen"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oak_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oak_planks"
+  },
+  "sends_telemetry_event": true
+}

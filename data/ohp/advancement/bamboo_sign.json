@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_sign"
+  },
+  "sends_telemetry_event": true
+}

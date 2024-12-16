@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.green_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.green_wool"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/green_wool"
+  },
+  "sends_telemetry_event": true
+}

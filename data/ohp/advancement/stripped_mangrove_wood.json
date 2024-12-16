@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_mangrove_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_mangrove_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_mangrove_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_mangrove_wood"
+  },
+  "sends_telemetry_event": true
+}

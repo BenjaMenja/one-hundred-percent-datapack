@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_banner"
+  },
+  "sends_telemetry_event": true
+}

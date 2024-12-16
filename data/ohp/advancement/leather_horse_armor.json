@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.leather_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.leather_horse_armor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/leather_horse_armor"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.end_stone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:end_stone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.end_stone_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/end_stone_bricks"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'blackstone_wall', 'item': 'minecraft:blackstone_wall'}

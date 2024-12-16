@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_button"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_button"
+  },
+  "sends_telemetry_event": true
+}

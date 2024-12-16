@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'heavy_core', 'item': 'minecraft:heavy_core'}

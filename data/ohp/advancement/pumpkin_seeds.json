@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pumpkin_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pumpkin_seeds"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pumpkin_seeds"
+  },
+  "sends_telemetry_event": true
+}

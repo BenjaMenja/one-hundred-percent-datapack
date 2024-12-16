@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cobbled_deepslate_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cobbled_deepslate_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cobbled_deepslate_wall"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_crimson_hyphae": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_crimson_hyphae"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_crimson_hyphae"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_crimson_hyphae"
+  },
+  "sends_telemetry_event": true
+}

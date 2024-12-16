@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.acacia_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.acacia_fence"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/acacia_fence"
+  },
+  "sends_telemetry_event": true
+}

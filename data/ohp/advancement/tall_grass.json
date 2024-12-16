@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.tall_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tall_grass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.tall_grass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/tall_grass"
+  },
+  "sends_telemetry_event": true
+}

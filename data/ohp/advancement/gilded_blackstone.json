@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.gilded_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gilded_blackstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.gilded_blackstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/gilded_blackstone"
+  },
+  "sends_telemetry_event": true
+}

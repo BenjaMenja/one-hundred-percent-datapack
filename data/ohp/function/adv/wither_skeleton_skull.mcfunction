@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wither_skeleton_skull', 'item': 'minecraft:wither_skeleton_skull'}

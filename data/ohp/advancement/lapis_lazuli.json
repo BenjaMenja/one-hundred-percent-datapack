@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lapis_lazuli"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lapis_lazuli"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'zombie_head', 'item': 'minecraft:zombie_head'}

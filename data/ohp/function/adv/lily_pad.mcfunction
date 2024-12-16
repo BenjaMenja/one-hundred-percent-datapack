@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'lily_pad', 'item': 'minecraft:lily_pad'}

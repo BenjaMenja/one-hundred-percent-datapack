@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crossbow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crossbow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crossbow"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crossbow"
+  },
+  "sends_telemetry_event": true
+}

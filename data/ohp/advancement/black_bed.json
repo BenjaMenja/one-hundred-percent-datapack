@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.black_bed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_bed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.black_bed"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/black_bed"
+  },
+  "sends_telemetry_event": true
+}

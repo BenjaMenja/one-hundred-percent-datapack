@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.magenta_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.magenta_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/magenta_concrete"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_far": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_far"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_far"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_far"
+  },
+  "sends_telemetry_event": true
+}

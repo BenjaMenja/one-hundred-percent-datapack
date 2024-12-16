@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_boat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_boat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_boat"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_boat"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.closed_eyeblossom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:closed_eyeblossom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.closed_eyeblossom"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/closed_eyeblossom"
+  },
+  "sends_telemetry_event": true
+}

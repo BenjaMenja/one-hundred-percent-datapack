@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.hay_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:hay_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.hay_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/hay_block"
+  },
+  "sends_telemetry_event": true
+}

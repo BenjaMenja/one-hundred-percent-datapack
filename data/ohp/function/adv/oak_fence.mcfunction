@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'oak_fence', 'item': 'minecraft:oak_fence'}

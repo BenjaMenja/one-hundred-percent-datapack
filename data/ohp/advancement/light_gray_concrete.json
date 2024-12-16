@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_gray_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_gray_concrete"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_gray_concrete"
+  },
+  "sends_telemetry_event": true
+}

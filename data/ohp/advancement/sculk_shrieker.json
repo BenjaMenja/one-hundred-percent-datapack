@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.sculk_shrieker": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sculk_shrieker"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.sculk_shrieker"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/sculk_shrieker"
+  },
+  "sends_telemetry_event": true
+}

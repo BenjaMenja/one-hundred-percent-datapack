@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.andesite_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:andesite_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.andesite_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/andesite_slab"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'ancient_debris', 'item': 'minecraft:ancient_debris'}

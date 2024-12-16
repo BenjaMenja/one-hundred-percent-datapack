@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'name_tag', 'item': 'minecraft:name_tag'}

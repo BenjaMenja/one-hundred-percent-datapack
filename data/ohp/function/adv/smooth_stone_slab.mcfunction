@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'smooth_stone_slab', 'item': 'minecraft:smooth_stone_slab'}

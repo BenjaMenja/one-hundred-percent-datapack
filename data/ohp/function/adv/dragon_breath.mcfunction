@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dragon_breath', 'item': 'minecraft:dragon_breath'}

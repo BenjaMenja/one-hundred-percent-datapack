@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'deepslate_emerald_ore', 'item': 'minecraft:deepslate_emerald_ore'}

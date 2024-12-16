@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_tile_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tile_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_tile_wall"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_tile_wall"
+  },
+  "sends_telemetry_event": true
+}

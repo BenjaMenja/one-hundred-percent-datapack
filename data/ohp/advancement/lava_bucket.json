@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lava_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lava_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lava_bucket"
+  },
+  "sends_telemetry_event": true
+}

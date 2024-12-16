@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.smooth_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_sandstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.smooth_sandstone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/smooth_sandstone"
+  },
+  "sends_telemetry_event": true
+}

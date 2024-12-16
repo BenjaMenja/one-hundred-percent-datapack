@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.compass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/compass"
+  },
+  "sends_telemetry_event": true
+}

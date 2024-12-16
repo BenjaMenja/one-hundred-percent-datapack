@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.carrot_on_a_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot_on_a_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.carrot_on_a_stick"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/carrot_on_a_stick"
+  },
+  "sends_telemetry_event": true
+}

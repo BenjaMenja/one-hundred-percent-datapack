@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_sign"
+  },
+  "sends_telemetry_event": true
+}

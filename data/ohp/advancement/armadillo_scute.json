@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.armadillo_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:armadillo_scute"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.armadillo_scute"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/armadillo_scute"
+  },
+  "sends_telemetry_event": true
+}

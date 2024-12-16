@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.slime_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:slime_ball"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.slime_ball"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/slime_ball"
+  },
+  "sends_telemetry_event": true
+}

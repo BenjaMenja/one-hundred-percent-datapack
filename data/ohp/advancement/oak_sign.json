@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.oak_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.oak_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/oak_sign"
+  },
+  "sends_telemetry_event": true
+}

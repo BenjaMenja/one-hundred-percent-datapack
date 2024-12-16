@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.nether_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.nether_brick"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/nether_brick"
+  },
+  "sends_telemetry_event": true
+}

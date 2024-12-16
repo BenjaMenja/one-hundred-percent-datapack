@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'azalea_leaves', 'item': 'minecraft:azalea_leaves'}

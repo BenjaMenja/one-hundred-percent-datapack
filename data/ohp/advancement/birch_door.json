@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_door"
+  },
+  "sends_telemetry_event": true
+}

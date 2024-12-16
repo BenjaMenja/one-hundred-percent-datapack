@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_mosaic_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_mosaic_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_mosaic_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_mosaic_stairs"
+  },
+  "sends_telemetry_event": true
+}

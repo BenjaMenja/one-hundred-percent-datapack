@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_stairs"
+  },
+  "sends_telemetry_event": true
+}

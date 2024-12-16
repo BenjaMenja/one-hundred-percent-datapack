@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.poppy"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/poppy"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lime_glazed_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_glazed_terracotta"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lime_glazed_terracotta"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lime_glazed_terracotta"
+  },
+  "sends_telemetry_event": true
+}

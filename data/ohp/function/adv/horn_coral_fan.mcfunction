@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'horn_coral_fan', 'item': 'minecraft:horn_coral_fan'}

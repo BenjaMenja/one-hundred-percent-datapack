@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.large_fern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:large_fern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.large_fern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/large_fern"
+  },
+  "sends_telemetry_event": true
+}

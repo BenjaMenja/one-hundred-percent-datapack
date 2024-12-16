@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_button"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_button"
+  },
+  "sends_telemetry_event": true
+}

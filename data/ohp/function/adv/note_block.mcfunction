@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'note_block', 'item': 'minecraft:note_block'}

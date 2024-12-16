@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mutton": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mutton"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mutton"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mutton"
+  },
+  "sends_telemetry_event": true
+}

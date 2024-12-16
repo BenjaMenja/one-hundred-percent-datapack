@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'snout_armor_trim_smithing_template', 'item': 'minecraft:snout_armor_trim_smithing_template'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_helmet"
+  },
+  "sends_telemetry_event": true
+}

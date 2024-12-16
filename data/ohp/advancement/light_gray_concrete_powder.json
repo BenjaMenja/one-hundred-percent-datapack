@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.light_gray_concrete_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_concrete_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.light_gray_concrete_powder"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/light_gray_concrete_powder"
+  },
+  "sends_telemetry_event": true
+}

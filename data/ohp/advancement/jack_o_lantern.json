@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jack_o_lantern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jack_o_lantern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jack_o_lantern"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jack_o_lantern"
+  },
+  "sends_telemetry_event": true
+}

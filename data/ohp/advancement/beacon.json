@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.beacon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beacon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.beacon"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/beacon"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_sign"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_sign"
+  },
+  "sends_telemetry_event": true
+}

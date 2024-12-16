@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_mosaic_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_mosaic_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_mosaic_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_mosaic_slab"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.heavy_weighted_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heavy_weighted_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.heavy_weighted_pressure_plate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/heavy_weighted_pressure_plate"
+  },
+  "sends_telemetry_event": true
+}

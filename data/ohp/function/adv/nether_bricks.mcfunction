@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'nether_bricks', 'item': 'minecraft:nether_bricks'}

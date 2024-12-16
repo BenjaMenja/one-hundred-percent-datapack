@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'nether_star', 'item': 'minecraft:nether_star'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.white_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.white_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/white_carpet"
+  },
+  "sends_telemetry_event": true
+}

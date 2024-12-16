@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_roots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_roots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_roots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_roots"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.magenta_candle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_candle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.magenta_candle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/magenta_candle"
+  },
+  "sends_telemetry_event": true
+}

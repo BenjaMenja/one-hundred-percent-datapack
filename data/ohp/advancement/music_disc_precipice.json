@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_precipice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_precipice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_precipice"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_precipice"
+  },
+  "sends_telemetry_event": true
+}

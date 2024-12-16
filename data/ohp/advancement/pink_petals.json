@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pink_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_petals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pink_petals"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pink_petals"
+  },
+  "sends_telemetry_event": true
+}

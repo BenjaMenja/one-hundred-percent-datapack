@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'daylight_detector', 'item': 'minecraft:daylight_detector'}

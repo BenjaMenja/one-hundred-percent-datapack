@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.red_stained_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_stained_glass_pane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.red_stained_glass_pane"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/red_stained_glass_pane"
+  },
+  "sends_telemetry_event": true
+}

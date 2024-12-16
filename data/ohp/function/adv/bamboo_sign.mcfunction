@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'bamboo_sign', 'item': 'minecraft:bamboo_sign'}

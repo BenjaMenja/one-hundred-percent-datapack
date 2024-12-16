@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.dead_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dead_bush"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.dead_bush"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/dead_bush"
+  },
+  "sends_telemetry_event": true
+}

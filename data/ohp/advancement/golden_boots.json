@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_boots"
+  },
+  "sends_telemetry_event": true
+}

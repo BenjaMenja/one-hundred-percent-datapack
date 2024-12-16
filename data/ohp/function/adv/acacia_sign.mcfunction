@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'acacia_sign', 'item': 'minecraft:acacia_sign'}

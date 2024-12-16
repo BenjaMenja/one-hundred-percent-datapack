@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.white_stained_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_stained_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.white_stained_glass"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/white_stained_glass"
+  },
+  "sends_telemetry_event": true
+}

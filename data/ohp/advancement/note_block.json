@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.note_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:note_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.note_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/note_block"
+  },
+  "sends_telemetry_event": true
+}

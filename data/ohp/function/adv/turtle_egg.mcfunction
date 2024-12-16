@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'turtle_egg', 'item': 'minecraft:turtle_egg'}

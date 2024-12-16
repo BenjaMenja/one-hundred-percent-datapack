@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.raiser_armor_trim_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raiser_armor_trim_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.raiser_armor_trim_smithing_template"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/raiser_armor_trim_smithing_template"
+  },
+  "sends_telemetry_event": true
+}

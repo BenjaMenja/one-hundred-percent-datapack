@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_leaves"
+  },
+  "sends_telemetry_event": true
+}

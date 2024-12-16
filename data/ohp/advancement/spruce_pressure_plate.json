@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.spruce_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.spruce_pressure_plate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/spruce_pressure_plate"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_log"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_log"
+  },
+  "sends_telemetry_event": true
+}

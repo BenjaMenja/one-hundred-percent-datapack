@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'granite_wall', 'item': 'minecraft:granite_wall'}

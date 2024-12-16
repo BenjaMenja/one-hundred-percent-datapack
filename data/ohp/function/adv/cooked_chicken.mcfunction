@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cooked_chicken', 'item': 'minecraft:cooked_chicken'}

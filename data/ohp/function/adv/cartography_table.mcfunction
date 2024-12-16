@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'cartography_table', 'item': 'minecraft:cartography_table'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'waxed_oxidized_cut_copper', 'item': 'minecraft:waxed_oxidized_cut_copper'}

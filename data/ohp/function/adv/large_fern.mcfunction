@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'large_fern', 'item': 'minecraft:large_fern'}

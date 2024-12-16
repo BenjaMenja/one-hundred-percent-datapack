@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mossy_stone_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_stone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mossy_stone_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mossy_stone_bricks"
+  },
+  "sends_telemetry_event": true
+}

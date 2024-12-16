@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'golden_axe', 'item': 'minecraft:golden_axe'}

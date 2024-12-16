@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ladder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ladder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ladder"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ladder"
+  },
+  "sends_telemetry_event": true
+}

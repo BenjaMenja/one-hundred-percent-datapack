@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bone_meal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bone_meal"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bone_meal"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.firework_rocket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_rocket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.firework_rocket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/firework_rocket"
+  },
+  "sends_telemetry_event": true
+}

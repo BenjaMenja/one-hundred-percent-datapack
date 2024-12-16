@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.resin_clump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:resin_clump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.resin_clump"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/resin_clump"
+  },
+  "sends_telemetry_event": true
+}

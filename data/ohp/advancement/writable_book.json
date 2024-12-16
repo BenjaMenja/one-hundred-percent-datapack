@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.writable_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:writable_book"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.writable_book"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/writable_book"
+  },
+  "sends_telemetry_event": true
+}

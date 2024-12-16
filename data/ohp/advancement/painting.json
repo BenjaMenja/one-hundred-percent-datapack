@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.painting": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:painting"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.painting"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/painting"
+  },
+  "sends_telemetry_event": true
+}

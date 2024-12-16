@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.jungle_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_leaves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.jungle_leaves"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/jungle_leaves"
+  },
+  "sends_telemetry_event": true
+}

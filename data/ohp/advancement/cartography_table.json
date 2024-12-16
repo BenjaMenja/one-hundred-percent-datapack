@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cartography_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cartography_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cartography_table"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cartography_table"
+  },
+  "sends_telemetry_event": true
+}

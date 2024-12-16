@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_boots"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_boots"
+  },
+  "sends_telemetry_event": true
+}

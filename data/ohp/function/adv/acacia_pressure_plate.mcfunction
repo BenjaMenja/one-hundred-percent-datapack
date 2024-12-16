@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'acacia_pressure_plate', 'item': 'minecraft:acacia_pressure_plate'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lime_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lime_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lime_bundle"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'spyglass', 'item': 'minecraft:spyglass'}

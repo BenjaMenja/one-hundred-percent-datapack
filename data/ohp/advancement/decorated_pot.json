@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.decorated_pot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:decorated_pot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.decorated_pot"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/decorated_pot"
+  },
+  "sends_telemetry_event": true
+}

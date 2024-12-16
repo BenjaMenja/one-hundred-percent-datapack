@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'magma_block', 'item': 'minecraft:magma_block'}

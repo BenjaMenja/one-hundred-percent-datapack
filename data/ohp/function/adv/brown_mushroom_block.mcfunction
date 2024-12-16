@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'brown_mushroom_block', 'item': 'minecraft:brown_mushroom_block'}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'rooted_dirt', 'item': 'minecraft:rooted_dirt'}

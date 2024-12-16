@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.diorite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.diorite"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/diorite"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.barrel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:barrel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.barrel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/barrel"
+  },
+  "sends_telemetry_event": true
+}

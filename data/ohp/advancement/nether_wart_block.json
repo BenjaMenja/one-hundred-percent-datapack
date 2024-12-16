@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.nether_wart_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_wart_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.nether_wart_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/nether_wart_block"
+  },
+  "sends_telemetry_event": true
+}

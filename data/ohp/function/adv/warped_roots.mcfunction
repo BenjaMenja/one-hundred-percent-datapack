@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'warped_roots', 'item': 'minecraft:warped_roots'}

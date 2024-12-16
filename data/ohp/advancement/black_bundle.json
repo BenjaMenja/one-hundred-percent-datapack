@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.black_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.black_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/black_bundle"
+  },
+  "sends_telemetry_event": true
+}

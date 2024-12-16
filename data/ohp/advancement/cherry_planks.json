@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_planks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_planks"
+  },
+  "sends_telemetry_event": true
+}

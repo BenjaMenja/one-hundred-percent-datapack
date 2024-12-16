@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'andesite_wall', 'item': 'minecraft:andesite_wall'}

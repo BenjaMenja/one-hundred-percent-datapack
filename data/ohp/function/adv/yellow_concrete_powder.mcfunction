@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'yellow_concrete_powder', 'item': 'minecraft:yellow_concrete_powder'}

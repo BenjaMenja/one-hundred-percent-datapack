@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'wooden_pickaxe', 'item': 'minecraft:wooden_pickaxe'}

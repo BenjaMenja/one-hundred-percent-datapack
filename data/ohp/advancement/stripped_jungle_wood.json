@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.stripped_jungle_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_jungle_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.stripped_jungle_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/stripped_jungle_wood"
+  },
+  "sends_telemetry_event": true
+}

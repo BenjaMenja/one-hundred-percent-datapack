@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.coarse_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coarse_dirt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.coarse_dirt"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/coarse_dirt"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'mojang_banner_pattern', 'item': 'minecraft:mojang_banner_pattern'}

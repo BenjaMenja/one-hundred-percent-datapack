@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.water_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.water_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/water_bucket"
+  },
+  "sends_telemetry_event": true
+}

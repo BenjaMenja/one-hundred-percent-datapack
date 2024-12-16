@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_ingot"
+  },
+  "sends_telemetry_event": true
+}

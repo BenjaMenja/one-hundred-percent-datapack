@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'obsidian', 'item': 'minecraft:obsidian'}

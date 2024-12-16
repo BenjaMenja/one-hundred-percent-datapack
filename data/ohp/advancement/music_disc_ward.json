@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_ward": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_ward"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_ward"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_ward"
+  },
+  "sends_telemetry_event": true
+}

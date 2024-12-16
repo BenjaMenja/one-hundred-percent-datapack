@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_gold_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_gold_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_gold_ore"
+  },
+  "sends_telemetry_event": true
+}

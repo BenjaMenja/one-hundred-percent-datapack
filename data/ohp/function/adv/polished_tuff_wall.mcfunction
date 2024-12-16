@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'polished_tuff_wall', 'item': 'minecraft:polished_tuff_wall'}

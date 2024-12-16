@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'snow_block', 'item': 'minecraft:snow_block'}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.firework_star": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.firework_star"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/firework_star"
+  },
+  "sends_telemetry_event": true
+}

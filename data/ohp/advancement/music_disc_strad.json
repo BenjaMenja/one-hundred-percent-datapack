@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_strad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_strad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_strad"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_strad"
+  },
+  "sends_telemetry_event": true
+}

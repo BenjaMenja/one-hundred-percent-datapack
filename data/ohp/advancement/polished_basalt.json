@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.polished_basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_basalt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.polished_basalt"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/polished_basalt"
+  },
+  "sends_telemetry_event": true
+}

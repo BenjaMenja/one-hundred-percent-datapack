@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.poisonous_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poisonous_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.poisonous_potato"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/poisonous_potato"
+  },
+  "sends_telemetry_event": true
+}

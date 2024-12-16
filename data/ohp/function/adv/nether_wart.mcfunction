@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'nether_wart', 'item': 'minecraft:nether_wart'}

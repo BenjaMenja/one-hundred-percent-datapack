@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.birch_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.birch_wood"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/birch_wood"
+  },
+  "sends_telemetry_event": true
+}

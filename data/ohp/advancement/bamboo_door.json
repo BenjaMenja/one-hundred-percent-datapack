@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.bamboo_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.bamboo_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/bamboo_door"
+  },
+  "sends_telemetry_event": true
+}

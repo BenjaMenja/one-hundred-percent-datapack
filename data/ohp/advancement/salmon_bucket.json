@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.salmon_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:salmon_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.salmon_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/salmon_bucket"
+  },
+  "sends_telemetry_event": true
+}

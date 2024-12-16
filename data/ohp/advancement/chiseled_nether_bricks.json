@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.chiseled_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_nether_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.chiseled_nether_bricks"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/chiseled_nether_bricks"
+  },
+  "sends_telemetry_event": true
+}

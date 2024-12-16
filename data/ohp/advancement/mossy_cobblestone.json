@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mossy_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mossy_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mossy_cobblestone"
+  },
+  "sends_telemetry_event": true
+}

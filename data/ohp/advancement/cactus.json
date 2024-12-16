@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cactus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cactus"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cactus"
+  },
+  "sends_telemetry_event": true
+}

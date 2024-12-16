@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.moss_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:moss_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.moss_carpet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/moss_carpet"
+  },
+  "sends_telemetry_event": true
+}

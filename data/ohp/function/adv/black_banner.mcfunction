@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'black_banner', 'item': 'minecraft:black_banner'}

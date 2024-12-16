@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'resin_block', 'item': 'minecraft:resin_block'}

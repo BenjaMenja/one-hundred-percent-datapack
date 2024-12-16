@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.ancient_debris": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ancient_debris"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.ancient_debris"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/ancient_debris"
+  },
+  "sends_telemetry_event": true
+}

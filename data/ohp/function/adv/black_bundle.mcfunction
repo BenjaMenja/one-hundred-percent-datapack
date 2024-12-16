@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'black_bundle', 'item': 'minecraft:black_bundle'}

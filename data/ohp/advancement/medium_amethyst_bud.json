@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.medium_amethyst_bud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:medium_amethyst_bud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.medium_amethyst_bud"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/medium_amethyst_bud"
+  },
+  "sends_telemetry_event": true
+}

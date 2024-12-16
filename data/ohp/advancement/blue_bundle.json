@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.blue_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.blue_bundle"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/blue_bundle"
+  },
+  "sends_telemetry_event": true
+}

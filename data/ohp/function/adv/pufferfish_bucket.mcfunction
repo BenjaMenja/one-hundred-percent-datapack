@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'pufferfish_bucket', 'item': 'minecraft:pufferfish_bucket'}

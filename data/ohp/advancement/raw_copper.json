@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.raw_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.raw_copper"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/raw_copper"
+  },
+  "sends_telemetry_event": true
+}

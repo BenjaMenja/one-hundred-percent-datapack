@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crying_obsidian"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crying_obsidian"
+  },
+  "sends_telemetry_event": true
+}

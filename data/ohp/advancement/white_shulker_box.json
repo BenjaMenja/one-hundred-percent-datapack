@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.white_shulker_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_shulker_box"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.white_shulker_box"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/white_shulker_box"
+  },
+  "sends_telemetry_event": true
+}

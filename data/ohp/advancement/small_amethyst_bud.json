@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.small_amethyst_bud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:small_amethyst_bud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.small_amethyst_bud"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/small_amethyst_bud"
+  },
+  "sends_telemetry_event": true
+}

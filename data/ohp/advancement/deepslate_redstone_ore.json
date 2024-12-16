@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.deepslate_redstone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_redstone_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.deepslate_redstone_ore"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/deepslate_redstone_ore"
+  },
+  "sends_telemetry_event": true
+}

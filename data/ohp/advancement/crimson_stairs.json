@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_stairs"
+  },
+  "sends_telemetry_event": true
+}

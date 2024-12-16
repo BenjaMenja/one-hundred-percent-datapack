@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cake"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cake"
+  },
+  "sends_telemetry_event": true
+}

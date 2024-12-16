@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.music_disc_stal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_stal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.music_disc_stal"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/music_disc_stal"
+  },
+  "sends_telemetry_event": true
+}

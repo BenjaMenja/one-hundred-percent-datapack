@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.quartz_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.quartz_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/quartz_block"
+  },
+  "sends_telemetry_event": true
+}

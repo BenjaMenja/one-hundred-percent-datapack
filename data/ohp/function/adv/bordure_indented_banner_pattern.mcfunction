@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'bordure_indented_banner_pattern', 'item': 'minecraft:bordure_indented_banner_pattern'}

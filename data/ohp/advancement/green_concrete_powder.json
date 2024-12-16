@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.green_concrete_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_concrete_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.green_concrete_powder"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/green_concrete_powder"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lily_of_the_valley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lily_of_the_valley"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lily_of_the_valley"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lily_of_the_valley"
+  },
+  "sends_telemetry_event": true
+}

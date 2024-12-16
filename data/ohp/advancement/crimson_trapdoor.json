@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.crimson_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.crimson_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/crimson_trapdoor"
+  },
+  "sends_telemetry_event": true
+}

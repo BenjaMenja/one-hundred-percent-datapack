@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'honeycomb_block', 'item': 'minecraft:honeycomb_block'}

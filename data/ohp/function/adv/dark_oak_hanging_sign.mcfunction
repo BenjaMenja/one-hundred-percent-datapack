@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'dark_oak_hanging_sign', 'item': 'minecraft:dark_oak_hanging_sign'}

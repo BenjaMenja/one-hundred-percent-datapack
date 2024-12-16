@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'activator_rail', 'item': 'minecraft:activator_rail'}

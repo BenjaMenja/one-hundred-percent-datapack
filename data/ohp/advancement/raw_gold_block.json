@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.raw_gold_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_gold_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.raw_gold_block"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/raw_gold_block"
+  },
+  "sends_telemetry_event": true
+}

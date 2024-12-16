@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.mossy_stone_brick_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_stone_brick_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.mossy_stone_brick_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/mossy_stone_brick_slab"
+  },
+  "sends_telemetry_event": true
+}

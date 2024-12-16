@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.golden_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.golden_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/golden_helmet"
+  },
+  "sends_telemetry_event": true
+}

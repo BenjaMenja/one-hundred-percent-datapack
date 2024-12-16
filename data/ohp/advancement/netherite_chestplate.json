@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.netherite_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.netherite_chestplate"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/netherite_chestplate"
+  },
+  "sends_telemetry_event": true
+}

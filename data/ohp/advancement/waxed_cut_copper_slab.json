@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.waxed_cut_copper_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_cut_copper_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.waxed_cut_copper_slab"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/waxed_cut_copper_slab"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.brown_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.brown_wool"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/brown_wool"
+  },
+  "sends_telemetry_event": true
+}

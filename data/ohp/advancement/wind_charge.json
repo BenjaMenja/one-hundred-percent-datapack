@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.wind_charge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wind_charge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.wind_charge"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/wind_charge"
+  },
+  "sends_telemetry_event": true
+}

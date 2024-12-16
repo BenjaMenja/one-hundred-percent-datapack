@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'tadpole_bucket', 'item': 'minecraft:tadpole_bucket'}

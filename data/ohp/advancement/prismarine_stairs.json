@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.prismarine_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.prismarine_stairs"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/prismarine_stairs"
+  },
+  "sends_telemetry_event": true
+}

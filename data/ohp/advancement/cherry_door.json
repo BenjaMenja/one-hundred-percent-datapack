@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.cherry_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.cherry_door"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/cherry_door"
+  },
+  "sends_telemetry_event": true
+}

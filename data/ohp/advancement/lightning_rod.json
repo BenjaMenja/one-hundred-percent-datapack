@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.lightning_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lightning_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.lightning_rod"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/lightning_rod"
+  },
+  "sends_telemetry_event": true
+}

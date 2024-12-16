@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.turtle_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_scute"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.turtle_scute"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/turtle_scute"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.fire_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fire_coral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.fire_coral"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/fire_coral"
+  },
+  "sends_telemetry_event": true
+}

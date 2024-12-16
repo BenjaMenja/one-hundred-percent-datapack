@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.iron_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.iron_shovel"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/iron_shovel"
+  },
+  "sends_telemetry_event": true
+}

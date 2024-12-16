@@ -1,0 +1,1 @@
+function ohp:obtain_item {'name': 'brewing_stand', 'item': 'minecraft:brewing_stand'}

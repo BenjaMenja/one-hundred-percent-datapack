@@ -1,0 +1,24 @@
+{
+  "parent": "ohp:root",
+  "criteria": {
+    "ohp.pink_banner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_banner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohp.pink_banner"
+    ]
+  ],
+  "rewards": {
+    "function": "ohp:adv/pink_banner"
+  },
+  "sends_telemetry_event": true
+}
