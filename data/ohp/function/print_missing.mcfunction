@@ -1,9 +1,9 @@
 scoreboard players set @s ohp.iter 0
 scoreboard players operation #iter_start ohp.iter = @s ohp.offset
-scoreboard players operation #iter_start ohp.iter *= #16 ohp.const
+scoreboard players operation #iter_start ohp.iter *= #17 ohp.const
 execute if score @s ohp.offset matches 1.. run scoreboard players add #iter_start ohp.iter 1
 scoreboard players operation #iter_end ohp.iter = #iter_start ohp.iter
-scoreboard players add #iter_end ohp.iter 16
+scoreboard players add #iter_end ohp.iter 17
 execute if entity @s[advancements={ohp:acacia_boat=false}] if score @s ohp.iter >= #iter_start ohp.iter run tellraw @s {"text":"acacia_boat","color":"red"}
 execute if entity @s[advancements={ohp:acacia_boat=false}] run scoreboard players add @s ohp.iter 1
 execute if score @s ohp.iter > #iter_end ohp.iter run return 0

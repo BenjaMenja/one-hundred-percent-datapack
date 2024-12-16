@@ -3,20 +3,9 @@ tag @a add ohp.init
 scoreboard players enable @a show_items
 scoreboard players enable @a show_items_click
 scoreboard players enable @a ohp.notif
-execute as @a if score @s show_items matches 1.. run scoreboard players operation @s ohp.offset = @s show_items
-execute as @a if score @s show_items matches 1.. run scoreboard players remove @s ohp.offset 1
-execute as @a if score @s show_items matches 1.. run function ohp:print_missing
-execute as @a if score @s show_items matches 1.. run scoreboard players operation @s ohp.page_display = @s ohp.offset
-execute as @a if score @s show_items matches 1.. run scoreboard players add @s ohp.page_display 1
-execute as @a if score @s show_items matches 1.. run tellraw @s [{"color":"aqua","text":"["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set -1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":" Go back one page"}]},"text":"<-"},{"color":"aqua","text":"]"},{"color":"white","text":" Page "},{"color":"white","score":{"name":"@s","objective":"ohp.page_display"}},{"color":"aqua","text":" ["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set 1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":"Go forward one page"}]},"text":"->"},{"color":"aqua","text":"]"}]
-execute as @a if score @s show_items_click matches 1 run scoreboard players add @s ohp.offset 1
-execute as @a if score @s show_items_click matches 1 run scoreboard players add @s ohp.page_display 1
-execute as @a if score @s show_items_click matches -1 if score @s ohp.offset matches 1.. run scoreboard players remove @s ohp.offset 1
-execute as @a if score @s show_items_click matches -1 if score @s ohp.offset matches 1.. run scoreboard players remove @s ohp.page_display 1
-execute as @a if score @s show_items_click matches -1 run function ohp:print_missing
-execute as @a if score @s show_items_click matches -1 run tellraw @s [{"color":"aqua","text":"["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set -1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":" Go back one page"}]},"text":"<-"},{"color":"aqua","text":"]"},{"color":"white","text":" Page "},{"color":"white","score":{"name":"@s","objective":"ohp.page_display"}},{"color":"aqua","text":" ["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set 1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":"Go forward one page"}]},"text":"->"},{"color":"aqua","text":"]"}]
-execute as @a if score @s show_items_click matches 1 run function ohp:print_missing
-execute as @a if score @s show_items_click matches 1 run tellraw @s [{"color":"aqua","text":"["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set -1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":" Go back one page"}]},"text":"<-"},{"color":"aqua","text":"]"},{"color":"white","text":" Page "},{"color":"white","score":{"name":"@s","objective":"ohp.page_display"}},{"color":"aqua","text":" ["},{"clickEvent":{"action":"run_command","value":"/trigger show_items_click set 1"},"color":"green","hoverEvent":{"action":"show_text","value":[{"text":"Go forward one page"}]},"text":"->"},{"color":"aqua","text":"]"}]
+execute as @a if score @s show_items matches 1.. run function ohp:show_items
+execute as @a if score @s show_items_click matches 1 run function ohp:show_items_click
+execute as @a if score @s show_items_click matches -1 if score @s ohp.offset matches 1.. run function ohp:show_items_click
 execute as @a unless score @s ohp.notif matches 0 run function ohp:set_notif
 scoreboard players set @a show_items 0
 scoreboard players set @a show_items_click 0
