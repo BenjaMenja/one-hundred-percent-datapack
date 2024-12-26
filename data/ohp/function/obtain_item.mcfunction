@@ -1,2 +1,2 @@
 scoreboard players add @s ohp.count 1
-$tellraw @s[tag=ohp.notif] [{"text":"Item Obtained! - ","color": "white"},{"text":"$(name)","color":"green"}]
+$tellraw @s[tag=ohp.notif] [{"text":"Item Obtained! - ","color": "white"},{"text":"$(name)","color":"green"},{"text":" (","color":"aqua"},{"score":{"objective":"ohp.count","name":"@s"},"color":"green"},{"text":"/","color":"aqua"},{"text":"1273","color":"green"},{"text":")","color":"aqua"}]
